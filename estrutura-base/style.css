@@ -46,6 +46,17 @@ nav button{
     width: 20vw;
     height: 8vh;
 }
+#selection-bar{
+    width: 0.2vw;
+    background-color: #F5F5F5;
+    height: 8vh;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 0px;
+}
+#selected-nav-text{
+    color: white;    
+}
 main{
     background-color: #D5E6ED;
 }
