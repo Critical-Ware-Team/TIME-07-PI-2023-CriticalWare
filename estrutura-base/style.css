@@ -4,6 +4,7 @@ body{
     margin: 0px;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    background-color: #D5E6ED;
 }
 header{
     background-color: #F5F5F5;
@@ -63,7 +64,4 @@ nav button{
 }
 #selected-nav #selection-bar{
     opacity: 1;
-}
-main{
-    background-color: #D5E6ED;
 }
