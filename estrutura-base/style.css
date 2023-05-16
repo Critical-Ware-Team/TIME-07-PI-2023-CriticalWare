@@ -53,10 +53,16 @@ nav button{
     border-radius: 0px 16px 16px 0px;
     position: absolute;
     left: 0px;
+    opacity: 0;
 }
-.selected-nav{
+#selected-nav{
     color: white;
+}
+#selected-nav path{
     stroke: white;
+}
+#selected-nav #selection-bar{
+    opacity: 1;
 }
 main{
     background-color: #D5E6ED;
