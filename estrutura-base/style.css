@@ -6,14 +6,32 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #D5E6ED;
 }
-header{
+header, footer{
     background-color: #F5F5F5;
-    height: 8vh;
-    width: 100vw;
+    height: 12vh;
+    width: inherit;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 4vw;
+    padding: 0px 4%;
+    color: #1B2023;
+}
+header{
+    top: 0px;
+}
+footer{
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 0px;
+}
+#logo-empresa{
+    max-width: 300px;
+    max-height: calc(100% - 20px);/*altura do pai (header) -20px para as margens*/
+}
+#logo-KER{
+    scale: 125%;
+    max-width: 130px;
 }
 #body-row{
     display: flex;
@@ -23,34 +41,33 @@ header{
 }
 nav{
     background-color: #2766A9;
-    background-attachment: fixed;
     height: 100vh;
-    width: 20vw;
+    width: 20%;
     display: flex;
     flex-direction: column;
     gap: 0px;
     align-items: flex-start;
-    padding-top: 8vh;
+    padding-top: 4%;
 }
 nav button{
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 8%;
     background-color: transparent;
     border: none;
-    padding-left: 4vw;
+    padding: 0px 0px 0px 20%;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
     color: #A5CEE0;
-    width: 20vw;
-    height: 8vh;
+    width: 100%;
+    height: 8%;
 }
 #selection-bar{
-    width: 0.2vw;
+    width: 0.2%;
     background-color: #F5F5F5;
-    height: 8vh;
+    height: 8%;
     border-radius: 0px 16px 16px 0px;
     position: absolute;
     left: 0px;
