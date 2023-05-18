@@ -2,7 +2,7 @@
 
 body{
     margin: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Poppins', sans-serif;
     background-color: #D5E6ED;
 }
@@ -29,21 +29,25 @@ footer{
     scale: 125%;
     max-width: 130px;
 }
-#body-row{
-    display: flex;
-    justify-content: space-between;
-    gap: 0px;
-    align-items: center;
-}
 nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
     background-color: #2766A9;
-    height: 100vh;
+    height: 100%;
     width: 20%;
     display: flex;
     flex-direction: column;
     gap: 0px;
     align-items: flex-start;
-    padding-top: 4%;
+    padding-top: 8%;
+}
+main{
+    margin-left: 20%;
+    padding: 4% 2% 4% 2%;
+    min-height: 73.5vh;
+    height: fit-content;
 }
 nav button{
     display: flex;
