@@ -7,12 +7,11 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     background-color: #D5E6ED;
-    min-height: 100%;
-    position: relative;
+    /* position: relative; */
 }
 header, footer{
-    position: fixed;
-    z-index: 10;
+    /* position: absolute; */
+    /* z-index: 10; */
     background-color: #F5F5F5;
     height: 12%;
     width: 92%;
@@ -22,11 +21,8 @@ header, footer{
     padding: 0px 4%;
     color: #1B2023;
 }
-footer{
-    bottom: 0;
-    justify-content: flex-end;
-    font-size: 16px;
-    font-weight: 500;
+header{
+    /* position: fixed; */
 }
 #logo-empresa{
     max-width: 300px;
@@ -36,9 +32,22 @@ footer{
     scale: 125%;
     max-width: 130px;
 }
+footer{
+    bottom: 0;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+}
+#body-row{
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    height: fit-content;
+}
 nav{
     position: fixed;
-    top: 0px;
+    top: calc(12% - 16px);
     left: 0px;
     z-index: -1;
     background-color: #2766A9;
@@ -48,7 +57,8 @@ nav{
     flex-direction: column;
     gap: 0px;
     align-items: flex-start;
-    padding-top: 8%;
+    padding-top: 4%;
+    border-top-right-radius: 16px;
 }
 main{
     margin-left: 20%;
