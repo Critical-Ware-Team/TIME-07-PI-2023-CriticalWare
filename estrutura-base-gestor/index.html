@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estrutura-base/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>estrutura gestor</title>
 </head>
 <body>
     <header>
@@ -15,40 +15,7 @@
     <div id="body-row">
         <nav>
             <div id="buttons">
-                <button id="selected-nav">
-                    <div id="selection-bar"></div>
-                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path 
-                        d="M19.54 9.4L17.8 7.6612V3.4C17.8 2.74 17.26 2.2 16.6 2.2H15.4C14.74 2.2 14.2 2.74 14.2 3.4V4.0636L11.8 1.666C11.4724 1.3564 11.1724 1 10.6 1C10.0276 1 9.7276 1.3564 9.4 1.666L1.66 9.4C1.2856 9.79 1 10.0744 1 10.6C1 11.2756 1.5184 11.8 2.2 11.8H3.4V19C3.4 19.66 3.94 20.2 4.6 20.2H7C7.66274 20.2 8.2 19.6627 8.2 19V14.2C8.2 13.54 8.74 13 9.4 13H11.8C12.46 13 13 13.54 13 14.2V19C13 19.6627 12.9373 20.2 13.6 20.2H16.6C17.26 20.2 17.8 19.66 17.8 19V11.8H19C19.6816 11.8 20.2 11.2756 20.2 10.6C20.2 10.0744 19.9144 9.79 19.54 9.4Z" 
-                        stroke="#A5CEE0" 
-                        stroke-width="2" 
-                        stroke-linejoin="round"/>
-                    </svg>
-                    <p>Página inicial</p>
-                </button>
-                <button>
-                    <div id="selection-bar"></div>
-                    <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path 
-                        d="M17.8 10.2C19.0673 11.1469 20.2 13.531 20.2 15C20.2 15.4576 19.8661 15.8286 19.4542 15.8286H19M14.2 6.31878C15.0198 5.84453 15.5714 4.95811 15.5714 3.94287C15.5714 2.92763 15.0198 2.04121 14.2 1.56696M1.74577 15.8286H14.8828C15.2947 15.8286 15.6286 15.4576 15.6286 15C15.6286 12.1233 13.2253 9.7914 8.31428 9.7914C3.40327 9.7914 1 12.1233 1 15C1 15.4576 1.33389 15.8286 1.74577 15.8286ZM11.0571 3.94287C11.0571 5.45771 9.82912 6.68573 8.31428 6.68573C6.79945 6.68573 5.57143 5.45771 5.57143 3.94287C5.57143 2.42803 6.79945 1.20001 8.31428 1.20001C9.82912 1.20001 11.0571 2.42803 11.0571 3.94287Z" 
-                        stroke="#A5CEE0" 
-                        stroke-width="2" 
-                        stroke-linecap="round"/>
-                    </svg>
-                    <p>Grupos</p>
-                </button>
-                <button>
-                    <div id="selection-bar"></div>
-                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path 
-                        d="M10.56 2.14252C10.7666 1.72398 11.3634 1.72398 11.57 2.14252L14.244 7.56065C14.326 7.72685 14.4846 7.84205 14.668 7.8687L20.6473 8.73754C21.1092 8.80466 21.2936 9.37228 20.9594 9.69807L16.6327 13.9155C16.5 14.0449 16.4394 14.2313 16.4708 14.4139L17.4921 20.369C17.571 20.8291 17.0882 21.1799 16.6751 20.9627L11.3271 18.1511C11.163 18.0648 10.967 18.0648 10.803 18.1511L5.45496 20.9627C5.04183 21.1799 4.55898 20.8291 4.63788 20.369L5.65926 14.4139C5.69059 14.2313 5.63003 14.0449 5.4973 13.9155L1.17067 9.69807C0.836446 9.37228 1.02088 8.80466 1.48277 8.73754L7.46203 7.8687C7.64544 7.84205 7.804 7.72685 7.88603 7.56065L10.56 2.14252Z" 
-                        stroke="#A5CEE0" 
-                        stroke-width="2" 
-                        stroke-linejoin="round"/>
-                    </svg>
-                    <p>Desafios</p>
-                </button>
-                <button>
+                <button id="selected-nav"><!-- Avaliar Ideias -->
                     <div id="selection-bar"></div>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 
@@ -58,9 +25,31 @@
                         stroke-linecap="round" 
                         stroke-linejoin="round"/>
                     </svg>
-                    <p>Cadastre ideias</p>
+                    <p>Avaliar Ideias</p>
                 </button>
-                <button>
+                <button><!-- Criar Desafios -->
+                    <div id="selection-bar"></div>
+                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                        d="M10.56 2.14252C10.7666 1.72398 11.3634 1.72398 11.57 2.14252L14.244 7.56065C14.326 7.72685 14.4846 7.84205 14.668 7.8687L20.6473 8.73754C21.1092 8.80466 21.2936 9.37228 20.9594 9.69807L16.6327 13.9155C16.5 14.0449 16.4394 14.2313 16.4708 14.4139L17.4921 20.369C17.571 20.8291 17.0882 21.1799 16.6751 20.9627L11.3271 18.1511C11.163 18.0648 10.967 18.0648 10.803 18.1511L5.45496 20.9627C5.04183 21.1799 4.55898 20.8291 4.63788 20.369L5.65926 14.4139C5.69059 14.2313 5.63003 14.0449 5.4973 13.9155L1.17067 9.69807C0.836446 9.37228 1.02088 8.80466 1.48277 8.73754L7.46203 7.8687C7.64544 7.84205 7.804 7.72685 7.88603 7.56065L10.56 2.14252Z" 
+                        stroke="#A5CEE0" 
+                        stroke-width="2" 
+                        stroke-linejoin="round"/>
+                    </svg>
+                    <p>Criar Desafios</p>
+                </button>
+                <button><!-- Avaliar Grupos -->
+                    <div id="selection-bar"></div>
+                    <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                        d="M17.8 10.2C19.0673 11.1469 20.2 13.531 20.2 15C20.2 15.4576 19.8661 15.8286 19.4542 15.8286H19M14.2 6.31878C15.0198 5.84453 15.5714 4.95811 15.5714 3.94287C15.5714 2.92763 15.0198 2.04121 14.2 1.56696M1.74577 15.8286H14.8828C15.2947 15.8286 15.6286 15.4576 15.6286 15C15.6286 12.1233 13.2253 9.7914 8.31428 9.7914C3.40327 9.7914 1 12.1233 1 15C1 15.4576 1.33389 15.8286 1.74577 15.8286ZM11.0571 3.94287C11.0571 5.45771 9.82912 6.68573 8.31428 6.68573C6.79945 6.68573 5.57143 5.45771 5.57143 3.94287C5.57143 2.42803 6.79945 1.20001 8.31428 1.20001C9.82912 1.20001 11.0571 2.42803 11.0571 3.94287Z" 
+                        stroke="#A5CEE0" 
+                        stroke-width="2" 
+                        stroke-linecap="round"/>
+                    </svg>
+                    <p>Avaliar Grupos</p>
+                </button>
+                <button><!-- Chat com Grupos -->
                     <div id="selection-bar"></div>
                     <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 
@@ -70,9 +59,9 @@
                         stroke-linecap="round" 
                         stroke-linejoin="round"/>
                     </svg>
-                    <p>Chat</p>
+                    <p>Chat com Grupos</p>
                 </button>
-                <button>
+                <button><!-- Feedbacks -->
                     <div id="selection-bar"></div>
                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 
@@ -84,7 +73,7 @@
                     </svg>
                     <p>Feedbacks</p>
                 </button>
-                <button>
+                <button><!-- Meu perfil -->
                     <div id="selection-bar"></div>
                     <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 
@@ -96,7 +85,7 @@
                     </svg>
                     <p>Meu perfil</p>
                 </button>
-                <button>
+                <button><!-- Configurações -->
                     <div id="selection-bar"></div>
                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 
@@ -106,7 +95,7 @@
                     </svg>
                     <p>Configurações</p>
                 </button>
-                <button>
+                <button><!-- Sair -->
                     <div id="selection-bar"></div>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path 
