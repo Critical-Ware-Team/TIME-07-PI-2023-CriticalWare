@@ -44,9 +44,10 @@ main{
     min-height: 100%;
     height: fit-content;
     width: 80%;
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 40px;
 }
 nav{
     position: relative;
@@ -102,6 +103,7 @@ nav button{
 }
 
 /*---------- estilização do conteúdo da main ↓*/
+/*---------- Cabeçalho  */
 #cabecalho{
     background-color: #F5F5F5;
     width: 100%;
@@ -139,4 +141,37 @@ nav button{
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
+}
+.desafio{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 0px 32px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.desafio h2{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #1B2023;
+}
+.desafio p{
+    margin: 0px;
+    color: #1B2023;
+}
+.desafio button{
+    background-color: #2766A9;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 48px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F5F5F5;
 }
