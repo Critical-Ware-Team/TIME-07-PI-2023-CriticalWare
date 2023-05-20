@@ -130,12 +130,12 @@ nav button{
 }
 #cabecalho h1{
     position: relative;
-    left: -8%;
+    left: -4%;
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
     color: #1B2023;
-    text-align: center;
+    text-align: end;
 }
 #nome-empresa{
     font-weight: 700;
@@ -145,7 +145,7 @@ nav button{
 .desafio{
     background-color: #F5F5F5;
     border-radius: 10px;
-    padding: 10px 0px 32px;
+    padding: 24px 0px;
     width: 100%;
 
     display: flex;
@@ -168,7 +168,7 @@ nav button{
     background-color: #2766A9;
     border: none;
     border-radius: 12px;
-    padding: 16px 48px;
+    padding: 8px 32px;
 
     font-weight: 400;
     font-size: 24px;
