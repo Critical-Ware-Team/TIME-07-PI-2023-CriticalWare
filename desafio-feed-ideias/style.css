@@ -155,3 +155,9 @@ h3{
     font-size: 16px;
     line-height: 25px;
 }
+.regras-desafio h3{
+    padding-inline-start: calc(16% - 13px);
+}
+.regras-desafio ol{
+    padding-inline-start: 16%;
+}
