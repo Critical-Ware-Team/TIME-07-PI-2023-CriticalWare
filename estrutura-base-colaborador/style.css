@@ -43,7 +43,10 @@ main{
     padding: 4% 2%;
     min-height: 100%;
     height: fit-content;
-    max-width: 80%;
+    width: 80%;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
 }
 nav{
     position: relative;
@@ -96,4 +99,48 @@ nav button{
 }
 #selected-nav #selection-bar{
     opacity: 1;
+}
+
+/*---------- estilização do conteúdo da main ↓*/
+#cabecalho{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 18.5%;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#foto-empresa{
+    width: 40%;
+    clip-path: url(images/img-mask.svg);
+    border-radius: inherit;
+    background-color: red;
+    overflow: unset;
+}
+#foto-empresa rect, #foto-empresa svg{
+    width: 100%;
+    height: 100%;
+}
+#foto-empresa rect{
+    fill:url(#fachada-moleskine);
+}
+#foto-empresa img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+#cabecalho h1{
+    position: relative;
+    left: -8%;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1B2023;
+    text-align: center;
+}
+#nome-empresa{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
 }
