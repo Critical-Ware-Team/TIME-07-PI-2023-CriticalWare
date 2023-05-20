@@ -147,8 +147,7 @@ h3{
     margin: 0px;
 }
 .descricao-desafio h3{
-    position: relative;
-    top: +10%;
+    margin-top: 4%;
 }
 .cabecalho-desafio p{
     margin: 0px;
