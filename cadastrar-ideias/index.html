@@ -122,9 +122,9 @@
             </div>
         </nav>
         <main>
-            <div class="form-col">
-                <h1>Insira uma ideia inovadora</h1>
-                <form action="" method="POST" id="form-ideia">
+            <h1>Insira uma ideia inovadora</h1>
+            <form action="" method="POST" id="form-ideia">
+                <div class="form-col">
                     <fieldset name="campo-titulo">
                         <legend>Título</legend>
                         <input name="ideia-titulo" type="text" placeholder="Qual o título da sua ideia?" id="ideia-titulo" minlength="5">
@@ -145,34 +145,34 @@
                         <!-- <input name="ideia-publicos" type="text" placeholder="Quem será afetado por essa ideia?" id="ideia-publicos"> -->
                         <textarea name="ideia-publicos" id="ideia-publicos" placeholder="Quem será afetado por essa ideia?"></textarea>
                     </fieldset>
-                    <fieldset name="campo-resultados">
-                        <legend>Resultados esperados</legend>
-                        <!-- <input name="ideia-resultados-esperados" type="text" placeholder="O que se espera com a implementação dessa ideia?" id="ideia-resultados-esperados"> -->
-                        <textarea name="ideia-resultados-esperados" id="ideia-resultados-esperados" placeholder="O que se espera com a implementação dessa ideia?"></textarea>
+                </div>
+                <div class="form-col">
+                        <fieldset name="campo-resultados" form="form-ideia">
+                            <legend>Resultados esperados</legend>
+                            <!-- <input name="ideia-resultados-esperados" type="text" placeholder="O que se espera com a implementação dessa ideia?" id="ideia-resultados-esperados"> -->
+                            <textarea name="ideia-resultados-esperados" id="ideia-resultados-esperados" placeholder="O que se espera com a implementação dessa ideia?"></textarea>
+                        </fieldset>
+                        <fieldset name="campo-custos" form="form-ideia">
+                            <legend>Custos da ideia</legend>
+                            <!-- <input name="ideia-custos" type="text" placeholder="O que a ideia precisa para ser implementada?" id="ideia-custos"> -->
+                            <textarea name="ideia-custos" id="ideia-custos" placeholder="O que a ideia precisa para ser implementada?"></textarea>
+                        </fieldset>
+                    <fieldset name="campo-anexos" form="form-ideia">
+                        <legend>Anexe arquivos (documentos, fotos, vídeos etc.)</legend>
+                        <input name="ideia-anexos" type="file" id="ideia-anexos">
                     </fieldset>
-                    <fieldset name="campo-custos">
-                        <legend>Custos da ideia</legend>
-                        <!-- <input name="ideia-custos" type="text" placeholder="O que a ideia precisa para ser implementada?" id="ideia-custos"> -->
-                        <textarea name="ideia-custos" id="ideia-custos" placeholder="O que a ideia precisa para ser implementada?"></textarea>
+                    <fieldset name="campo-desafio" form="form-ideia">
+                        <legend>Inscrever ideia em um desafio</legend>
+                        <select name="ideia-desafio" id="ideia-desafio">
+                            <option value="">Selecione um desafio</option>
+                            <option value="sem-desafio">Sem desafio</option>
+                            <option value="reforma-sede">Reforma da sede</option>
+                            <option value="percepcao-valor">Aumento da percepção de valor agregado</option>
+                        </select>
                     </fieldset>
-                </form>
-            </div>
-            <div class="form-col">
-                <fieldset name="campo-anexos" form="form-ideia">
-                    <legend>Anexe arquivos (documentos, fotos, vídeos etc.)</legend>
-                    <input name="ideia-anexos" type="file" id="ideia-anexos">
-                </fieldset>
-                <fieldset name="campo-desafio" form="form-ideia">
-                    <legend>Inscrever ideia em um desafio</legend>
-                    <select name="ideia-desafio" id="ideia-desafio">
-                        <option value="">Selecione um desafio</option>
-                        <option value="sem-desafio">Sem desafio</option>
-                        <option value="reforma-sede">Reforma da sede</option>
-                        <option value="percepcao-valor">Aumento da percepção de valor agregado</option>
-                    </select>
-                </fieldset>
-                <button type="submit" form="form-ideia">Enviar ideia</button>
-            </div>
+                    <button type="submit" form="form-ideia">Enviar ideia</button>
+                </div>
+            </form>
         </main>
     </div>
     <footer>
