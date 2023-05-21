@@ -122,43 +122,43 @@
             </div>
         </nav>
         <main>
-            <div class="form-row">
+            <div class="form-col">
                 <h1>Insira uma ideia inovadora</h1>
                 <form action="" method="POST" id="form-ideia">
-                    <fieldset name="ideia-titulo">
+                    <fieldset name="campo-titulo">
                         <legend>Título</legend>
-                        <input type="text" placeholder="Qual o título da sua ideia?">
+                        <input name="ideia-titulo" type="text" placeholder="Qual o título da sua ideia?" id="ideia-titulo">
                     </fieldset>
-                    <fieldset name="ideia-descricao">
+                    <fieldset name="campo-descricao">
                         <legend>Descrição</legend>
-                        <input type="text" placeholder="Descreva sua ideia">
+                        <textarea name="ideia-descricao" id="ideia-descricao" placeholder="Descreva sua ideia"></textarea>
                     </fieldset>
-                    <fieldset name="ideia-problema">
+                    <fieldset name="campo-problema">
                         <legend>Problema a ser resolvido</legend>
-                        <input type="text" placeholder="O que a ideia pretente solucionar?">
+                        <input name="ideia-problema" type="text" placeholder="O que a ideia pretente solucionar?" id="ideia-problema">
                     </fieldset>
-                    <fieldset name="ideia-publicos">
+                    <fieldset name="campo-publicos">
                         <legend>Públicos impactados</legend>
-                        <input type="text" placeholder="Quem será afetado por essa ideia?">
+                        <input name="ideia-publicos" type="text" placeholder="Quem será afetado por essa ideia?" id="ideia-publicos">
                     </fieldset>
-                    <fieldset name="ideia-resultados-esperados">
+                    <fieldset name="campo-resultados">
                         <legend>Resultados esperados</legend>
-                        <input type="text" placeholder="O que se espera com a implementação dessa ideia?">
+                        <input name="ideia-resultados-esperados" type="text" placeholder="O que se espera com a implementação dessa ideia?" id="ideia-resultados-esperados">
                     </fieldset>
-                    <fieldset name="ideia-custos">
+                    <fieldset name="campo-custos">
                         <legend>Custos da ideia</legend>
-                        <input type="text" placeholder="O que a ideia precisa para ser implementada?">
+                        <input name="ideia-custos" type="text" placeholder="O que a ideia precisa para ser implementada?" id="ideia-custos">
                     </fieldset>
                 </form>
             </div>
-            <div class="form-row">
-                <fieldset name="ideia-anexos" form="form-ideia">
+            <div class="form-col">
+                <fieldset name="campo-anexos" form="form-ideia">
                     <legend>Anexe arquivos (documentos, fotos, vídeos etc.)</legend>
-                    <input type="file" placeholder="">
+                    <input name="ideia-anexos" type="file" id="ideia-anexos">
                 </fieldset>
-                <fieldset name="ideia-desafio" form="form-ideia">
+                <fieldset name="campo-desafio" form="form-ideia">
                     <legend>Inscrever ideia em um desafio</legend>
-                    <select name="desafios" id="desafios">
+                    <select name="ideia-desafio" id="ideia-desafio">
                         <option value="">Selecione um desafio</option>
                         <option value="sem-desafio">Sem desafio</option>
                         <option value="reforma-sede">Reforma da sede</option>
