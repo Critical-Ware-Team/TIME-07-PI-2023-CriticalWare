@@ -117,6 +117,11 @@ nav button {
     opacity: 1;
 }
 
+.estilizacao-de-conteiners {
+    width: 70%;
+    height: 100%;
+}
+
 .container-desafios {
     display: flex;
     flex-direction: column;
@@ -134,39 +139,68 @@ nav button {
 }
 
 
-.conteiner-perfil{
+.conteiner-perfil {
+    position: relative;
     display: flex;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 30%;
+    width: 85%;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dadosperfil {
+    display: flex;
+    position: relative;
+    left: -10%;
     flex-direction: column;
-    background-color: #F5F5F5;
-    padding: 20px;
-    height: 50%;
-    width: 80%;
-    border-radius: 12px;
+    /* margin-left: 45%; */
     font-weight: 500;
-    text-align: right;
+    text-align: left;
     line-height: 1%;
-    font-size: 16px;
-    
+    font-size: 20px;
+
 }
 
-.fotodeperfil{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-    clip-path: circle(50% at 50% 50%);
-    border-radius: 50%;
-  }
-/*
+.fotodeperfil {
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    clip-path: circle();
+    align-self: center;
+}
 
-.conteiner-grupos{
+.conteiner-grupos {
     display: flex;
+    flex-direction: row;
     background-color: #F5F5F5;
     padding: 20px;
-    height: 99px;
-    width: 960px;
+    height: 30%;
+    width: 50%;
     border-radius: 12px;
+    margin-top: 3%;
 }
 
+.grupos-imagens {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    clip-path: circle(30% at );
+    border-radius: 50%;
+    overflow: hidden;
+    scale: 20%;
+}
+
+.grupos-texto {
+    display: flex;
+    text-align: left;
+
+}
+
+/*
 .conteiner-ideiasrecentes{
     display: flex;
     background-color: #F5F5F5;
