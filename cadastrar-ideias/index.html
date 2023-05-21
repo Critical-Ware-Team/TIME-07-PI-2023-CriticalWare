@@ -122,37 +122,41 @@
             </div>
         </nav>
         <main>
-            <h1>Insira uma ideia inovadora</h1>
-            <form action="" method="POST">
-                <fieldset name="ideia-titulo">
-                    <legend>Título</legend>
-                    <input type="text" placeholder="Qual o título da sua ideia?">
-                </fieldset>
-                <fieldset name="ideia-descricao">
-                    <legend>Descrição</legend>
-                    <input type="text" placeholder="Descreva sua ideia">
-                </fieldset>
-                <fieldset name="ideia-problema">
-                    <legend>Problema a ser resolvido</legend>
-                    <input type="text" placeholder="O que a ideia pretente solucionar?">
-                </fieldset>
-                <fieldset name="ideia-publicos">
-                    <legend>Públicos impactados</legend>
-                    <input type="text" placeholder="Quem será afetado por essa ideia?">
-                </fieldset>
-                <fieldset name="ideia-resultados-esperados">
-                    <legend>Resultados esperados</legend>
-                    <input type="text" placeholder="O que se espera com a implementação dessa ideia?">
-                </fieldset>
-                <fieldset name="ideia-custos">
-                    <legend>Custos da ideia</legend>
-                    <input type="text" placeholder="O que a ideia precisa para ser implementada?">
-                </fieldset>
-                <fieldset name="ideia-anexos">
+            <div class="form-row">
+                <h1>Insira uma ideia inovadora</h1>
+                <form action="" method="POST" id="form-ideia">
+                    <fieldset name="ideia-titulo">
+                        <legend>Título</legend>
+                        <input type="text" placeholder="Qual o título da sua ideia?">
+                    </fieldset>
+                    <fieldset name="ideia-descricao">
+                        <legend>Descrição</legend>
+                        <input type="text" placeholder="Descreva sua ideia">
+                    </fieldset>
+                    <fieldset name="ideia-problema">
+                        <legend>Problema a ser resolvido</legend>
+                        <input type="text" placeholder="O que a ideia pretente solucionar?">
+                    </fieldset>
+                    <fieldset name="ideia-publicos">
+                        <legend>Públicos impactados</legend>
+                        <input type="text" placeholder="Quem será afetado por essa ideia?">
+                    </fieldset>
+                    <fieldset name="ideia-resultados-esperados">
+                        <legend>Resultados esperados</legend>
+                        <input type="text" placeholder="O que se espera com a implementação dessa ideia?">
+                    </fieldset>
+                    <fieldset name="ideia-custos">
+                        <legend>Custos da ideia</legend>
+                        <input type="text" placeholder="O que a ideia precisa para ser implementada?">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="form-row">
+                <fieldset name="ideia-anexos" form="form-ideia">
                     <legend>Anexe arquivos (documentos, fotos, vídeos etc.)</legend>
                     <input type="file" placeholder="">
                 </fieldset>
-                <fieldset name="ideia-desafio">
+                <fieldset name="ideia-desafio" form="form-ideia">
                     <legend>Inscrever ideia em um desafio</legend>
                     <select name="desafios" id="desafios">
                         <option value="">Selecione um desafio</option>
@@ -161,8 +165,8 @@
                         <option value="percepcao-valor">Aumento da percepção de valor agregado</option>
                     </select>
                 </fieldset>
-                <button type="submit">Enviar ideia</button>
-            </form>
+                <button type="submit" form="form-ideia">Enviar ideia</button>
+            </div>
         </main>
     </div>
     <footer>
