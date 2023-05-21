@@ -117,12 +117,36 @@ fieldset{
     margin: 0px;
     margin-inline: 0px;
     width: 60%;
+    height: 100%;
 }
-input, select{
+legend{
+    width: max-content;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+textarea, select, input{
     width: 100%;
+    min-height: 2rem;/*Essa altura não se aplica ao textarea*/
 }
-input[type="text"], select{
+textarea{
+    resize: vertical;
+    min-height: 3rem;
+}
+textarea, select, input[type="text"]{
     border: none;
     border-radius: 12px;
     background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(27, 32, 35, 1);
+    padding-left: 4%;
+}
+#ideia-descricao{
+    height: 8rem;
+}
+#ideia-resultados-esperados{
+    height: 5rem;
 }
