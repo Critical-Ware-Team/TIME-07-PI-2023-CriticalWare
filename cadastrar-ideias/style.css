@@ -40,7 +40,7 @@ footer{
 }
 main{
     box-sizing: border-box;
-    padding: 4% 10%;
+    padding: 2% 10% 4%;
     min-height: 100%;
     height: fit-content;
     width: 100%;
@@ -112,35 +112,41 @@ h1{
 form{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 8%;
 }
 .form-col{
+    height: fit-content;
     width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 fieldset{
     border: none;
     margin: 0px;
-    min-inline-size: 0px;
-    padding-inline: 0px;
-    padding-block: 0px;
-    margin-inline: 0px;
     height: 100%;
     width: 100%;
-    box-sizing: content-box;
 }
 legend{
-    width: max-content;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
 }
-textarea, select, input{
+select, input{
+    min-height: 2rem;
+}
+select{
     width: 100%;
-    min-height: 2rem;/*Essa altura não se aplica ao textarea*/
+}
+input{
+    width: 95%;
 }
 textarea{
     resize: vertical;
+    width: 95%;
     min-height: 3rem;
 }
 textarea, select, input[type="text"]{
@@ -159,4 +165,36 @@ textarea, select, input[type="text"]{
 }
 #ideia-resultados-esperados{
     height: 5rem;
+}
+input[type="file"] {
+    display: none;
+}
+.anex-box{
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+    padding: 8% 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+main button{
+    position: relative;
+    top: 1rem;
+
+    background-color: #A5CEE0;
+
+    border: none;
+    border-radius: 12px;
+    padding: 10px 32px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1B2023;
+
+    cursor: pointer;
 }

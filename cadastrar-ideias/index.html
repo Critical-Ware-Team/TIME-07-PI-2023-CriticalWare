@@ -147,21 +147,24 @@
                     </fieldset>
                 </div>
                 <div class="form-col">
-                        <fieldset name="campo-resultados" form="form-ideia">
+                        <fieldset name="campo-resultados">
                             <legend>Resultados esperados</legend>
                             <!-- <input name="ideia-resultados-esperados" type="text" placeholder="O que se espera com a implementação dessa ideia?" id="ideia-resultados-esperados"> -->
                             <textarea name="ideia-resultados-esperados" id="ideia-resultados-esperados" placeholder="O que se espera com a implementação dessa ideia?"></textarea>
                         </fieldset>
-                        <fieldset name="campo-custos" form="form-ideia">
+                        <fieldset name="campo-custos">
                             <legend>Custos da ideia</legend>
                             <!-- <input name="ideia-custos" type="text" placeholder="O que a ideia precisa para ser implementada?" id="ideia-custos"> -->
                             <textarea name="ideia-custos" id="ideia-custos" placeholder="O que a ideia precisa para ser implementada?"></textarea>
                         </fieldset>
-                    <fieldset name="campo-anexos" form="form-ideia">
+                    <fieldset name="campo-anexos">
                         <legend>Anexe arquivos (documentos, fotos, vídeos etc.)</legend>
+                        <label for="ideia-anexos" class="anex-box">
+                            <img src="images/clips.svg" alt="clips-icon">
+                        </label>
                         <input name="ideia-anexos" type="file" id="ideia-anexos">
                     </fieldset>
-                    <fieldset name="campo-desafio" form="form-ideia">
+                    <fieldset name="campo-desafio">
                         <legend>Inscrever ideia em um desafio</legend>
                         <select name="ideia-desafio" id="ideia-desafio">
                             <option value="">Selecione um desafio</option>
@@ -170,9 +173,9 @@
                             <option value="percepcao-valor">Aumento da percepção de valor agregado</option>
                         </select>
                     </fieldset>
-                    <button type="submit" form="form-ideia">Enviar ideia</button>
                 </div>
             </form>
+            <button type="submit" form="form-ideia">Enviar ideia</button>
         </main>
     </div>
     <footer>
