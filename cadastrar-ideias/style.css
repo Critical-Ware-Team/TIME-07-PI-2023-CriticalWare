@@ -174,6 +174,7 @@ input[type="file"] {
     height: 100%;
     width: 100%;
     padding: 8% 0px;
+    border-radius: 12px;
 
     display: flex;
     align-items: center;
@@ -197,4 +198,62 @@ main button{
     color: #1B2023;
 
     cursor: pointer;
+}
+input[type="radio"]{
+    display: none;
+}
+.grupo-card-label{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.grupo-card, .novo-grupo{
+    max-height: 6.5rem;
+    background-color: #F5F5F5;
+    width: 40%;
+    padding: 6% 3%;
+    border-radius: 12px;
+}
+.grupo-card p{
+    margin: 0px;
+}
+.grupo-card p:nth-child(1){
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 8px;
+    text-transform: uppercase;
+}
+.grupo-card p:nth-child(2){
+    font-weight: 600;
+    font-size: 16.5369px;
+    line-height: 25px;
+}
+.grupo-card p:nth-child(4){
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 3%;
+}
+.grupo-card div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+.grupo-card img{
+    width: 20%;
+    clip-path: circle();
+}
+.grupo-card div img:nth-child(-n + 5){
+    margin-left: -6%;
+}
+.novo-grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.novo-grupo img{
+    /* width: 40%; */
 }
