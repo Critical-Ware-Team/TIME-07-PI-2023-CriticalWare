@@ -175,29 +175,34 @@ nav button {
 
 .conteiner-grupos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #F5F5F5;
     padding: 20px;
     height: 30%;
-    width: 50%;
+    width: 85%;
     border-radius: 12px;
     margin-top: 3%;
 }
 
 .grupos-imagens {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    clip-path: circle(30% at );
-    border-radius: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 0px;
     overflow: hidden;
-    scale: 20%;
 }
 
-.grupos-texto {
+.grupos-imagens img {
     display: flex;
-    text-align: left;
+    width: 20%;
+    clip-path: circle();
+    margin: 1%;
+    object-fit: cover;
+    overflow: hidden;
+}
 
+.conteiner-grupos h2 {
+    margin: 0px 0px 0px 20px;
 }
 
 /*
