@@ -126,24 +126,25 @@ nav button {
     height: 65.3%;
     border-radius: 12px;
     text-align: center;
+    margin-left: auto;
 }
 
 .container-desafios img {
     margin-bottom: 10%;
 }
 
-/*
+
 .conteiner-perfil{
     display: flex;
     flex-direction: column;
     background-color: #F5F5F5;
     padding: 20px;
-    height: 218px;
-    width: 960px;
+    height: 50%;
+    width: 80%;
     border-radius: 12px;
     font-weight: 500;
     text-align: right;
-    line-height: 1px;
+    line-height: 1%;
     font-size: 16px;
     
 }
@@ -153,8 +154,9 @@ nav button {
     height: 50%;
     object-fit: cover;
     clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
   }
-
+/*
 
 .conteiner-grupos{
     display: flex;
