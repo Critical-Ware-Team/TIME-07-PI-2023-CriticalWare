@@ -47,6 +47,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    color: #1B2023;
 }
 nav{
     position: relative;
@@ -99,4 +100,11 @@ nav button{
 }
 #selected-nav #selection-bar{
     opacity: 1;
+}
+
+/**/
+h1{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
 }
