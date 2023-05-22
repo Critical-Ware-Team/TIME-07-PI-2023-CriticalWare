@@ -34,7 +34,6 @@ footer{
 #body-row{
     display: flex;
     position: relative;
-    justify-content: space-between;
     gap: 0px;
     min-height: 76%;
 }
@@ -43,10 +42,11 @@ main{
     padding: 4% 2%;
     min-height: 100%;
     height: fit-content;
-    max-width: 80%;
+    width: 80%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 24px;
 }
 nav{
     position: relative;
@@ -99,4 +99,65 @@ nav button{
 }
 #selected-nav #selection-bar{
     opacity: 1;
+}
+.pesquisa_chat_colab{
+   border-radius: 30px;
+   width: 250%;
+   height: 45px;
+   text-align: center;
+   border-color: transparent;
+}
+.input_lupa {
+    align-items: center;
+    display: flex;
+    width: 50%;
+  }
+
+  .input_lupa input{
+    padding-left: 30px; 
+    width: 100%;
+  }
+
+  .input_lupa img {
+    position: relative;
+    left: 8%;
+  }
+
+.ideia_chat{
+    width: 35%;
+    height: 175px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+.ideia_chat h2{
+    margin: 0px;
+}
+.ideia_chat p{
+    margin: 0% 0% 18% 0%;
+}
+.membros_ideia_chat{
+    width: 80%;
+    height: 20%;
+    border-radius: 12px;
+    background-color: #D5E6ED;
+    display: flex;
+    align-items: center;
+}
+.membros_ideia_chat p{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 18%;
+    font-size: 80%;
+}
+.alinha_chats{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 16px;
 }
