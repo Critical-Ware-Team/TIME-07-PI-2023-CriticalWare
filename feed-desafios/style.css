@@ -43,10 +43,11 @@ main{
     padding: 4% 2%;
     min-height: 100%;
     height: fit-content;
-    max-width: 80%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 40px;
 }
 nav{
     position: relative;
@@ -80,7 +81,7 @@ nav button{
     line-height: 18px;
     color: #A5CEE0;
     width: 100%;
-    height: 8%;
+    height: 7%;
 }
 #selection-bar{
     width: 1%;
@@ -99,4 +100,78 @@ nav button{
 }
 #selected-nav #selection-bar{
     opacity: 1;
+}
+
+/*---------- estilização do conteúdo da main ↓*/
+/*---------- Cabeçalho  */
+#cabecalho{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: fit-content;
+    max-height: 18.5%;
+    border-radius: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+}
+#foto-empresa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    border-radius: inherit;
+}
+#foto-empresa img{
+    width: 100%;
+    /* border-radius: inherit; */
+}
+#cabecalho h1{
+    position: relative;
+    left: -4%;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1B2023;
+    text-align: end;
+}
+#nome-empresa{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.desafio{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 24px 0px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.desafio h2{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #1B2023;
+}
+.desafio p{
+    margin: 0px;
+    color: #1B2023;
+}
+.desafio button{
+    background-color: #2766A9;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 32px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F5F5F5;
 }
