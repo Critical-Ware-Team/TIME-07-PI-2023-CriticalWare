@@ -199,7 +199,7 @@ main button{
 
     cursor: pointer;
 }
-input[type="radio"]{
+input[type="radio"], input[type="checkbox"]{
     display: none;
 }
 .grupo-card-label{
@@ -254,6 +254,19 @@ input[type="radio"]{
     align-items: center;
     justify-content: space-between;
 }
-.novo-grupo img{
-    /* width: 40%; */
+
+
+/*-----------animações*/
+.anex-box, .grupo-card, .novo-grupo{
+    transition-property: background-color;
+    transition-duration: 150ms;
+}
+.anex-box:hover, .grupo-card:hover, .novo-grupo:hover{
+    transition-property: background-color;
+    transition-duration: 300ms;
+    background-color: #ddd;
+}
+input:checked + label .grupo-card{
+    background-color: #2766A9;
+    color: #F5F5F5;
 }
