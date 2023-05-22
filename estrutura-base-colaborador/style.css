@@ -157,7 +157,6 @@ nav button {
     position: relative;
     left: -10%;
     flex-direction: column;
-    /* margin-left: 45%; */
     font-weight: 500;
     text-align: left;
     line-height: 1%;
@@ -205,22 +204,52 @@ nav button {
     margin: 0px 0px 0px 20px;
 }
 
-/*
-.conteiner-ideiasrecentes{
+
+.conteiner-ideias-recentes {
     display: flex;
     background-color: #F5F5F5;
+    margin-top: 3%;
     padding: 20px;
-    height: 189px;
-    width: 960px;
+    padding-bottom: 50px;
+    height: 14em;
+    width: 85%;
     border-radius: 12px;
+    flex-wrap: wrap;
 }
 
-.conteiner-contato{
+.conteiner-ideias-imagens {
     display: flex;
+    height: 70%;
+    gap: 50px;
+    margin-left: 50px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.conteiner-ideias-recentes h2 {
+    margin-left: 20px;
+}
+
+.conteiner-contato {
+    display: flex;
+    flex-direction: column;
     background-color: #F5F5F5;
     padding: 20px;
-    height: 119px;
-    width: 960px;
+    height: 30%;
+    width: 85%;
     border-radius: 12px;
+    margin-top: 3%;
+    font-weight: 500;
 }
-*/
+
+.esquerda {
+    display: flex;
+    text-align: left;
+    gap: 40%;
+}
+
+.direita {
+    display: flex;
+    text-align: right;
+    gap: 50%;
+}
