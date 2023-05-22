@@ -199,20 +199,24 @@ main button{
 
     cursor: pointer;
 }
-input[type="radio"], input[type="checkbox"]{
+input[type="radio"]{
     display: none;
 }
-.grupo-card-label{
-    display: inline-flex;
+.agrupamento-grupos{
+    display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 20px;
+    max-width: 100%;
+}
+.agrupamento-grupos label{
+    width: 40%;
 }
 .grupo-card, .novo-grupo{
     max-height: 6.5rem;
     background-color: #F5F5F5;
-    width: 40%;
     padding: 6% 3%;
     border-radius: 12px;
+    width: 100%;
 }
 .grupo-card p{
     margin: 0px;
@@ -269,4 +273,11 @@ input[type="radio"], input[type="checkbox"]{
 input:checked + label .grupo-card{
     background-color: #2766A9;
     color: #F5F5F5;
+}
+input:checked + label .novo-grupo{
+    background-color: #2766A9;
+    color: #F5F5F5;
+}
+input:checked + label .novo-grupo path{
+    stroke: #F5F5F5;
 }
