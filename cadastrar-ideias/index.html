@@ -127,33 +127,27 @@
                 <div class="form-col">
                     <fieldset name="campo-titulo">
                         <legend>Título</legend>
-                        <input name="ideia-titulo" type="text" placeholder="Qual o título da sua ideia?" id="ideia-titulo" minlength="5">
-                        <!-- <textarea name="ideia-titulo" id="ideia-titulo" placeholder="Qual o título da sua ideia?"></textarea> -->
+                        <input name="ideia-titulo" type="text" placeholder="Qual o título da sua ideia?" id="ideia-titulo" minlength="5" required>
                     </fieldset>
                     <fieldset name="campo-descricao">
                         <legend>Descrição</legend>
-                        <!-- <input name="ideia-descricao" type="text" placeholder="Descreva sua ideia" id="ideia-descricao"> -->
-                        <textarea name="ideia-descricao" id="ideia-descricao" placeholder="Descreva sua ideia"></textarea>
+                        <textarea name="ideia-descricao" id="ideia-descricao" placeholder="Descreva sua ideia" required></textarea>
                     </fieldset>
                     <fieldset name="campo-problema">
                         <legend>Problema a ser resolvido</legend>
-                        <!-- <input name="ideia-problema" type="text" placeholder="O que a ideia pretente solucionar?" id="ideia-problema"> -->
-                        <textarea name="ideia-problema" id="ideia-problema" placeholder="O que a ideia pretente solucionar?"></textarea>
+                        <textarea name="ideia-problema" id="ideia-problema" placeholder="O que a ideia pretente solucionar?" required></textarea>
                     </fieldset>
                     <fieldset name="campo-publicos">
                         <legend>Públicos impactados</legend>
-                        <!-- <input name="ideia-publicos" type="text" placeholder="Quem será afetado por essa ideia?" id="ideia-publicos"> -->
-                        <textarea name="ideia-publicos" id="ideia-publicos" placeholder="Quem será afetado por essa ideia?"></textarea>
+                        <textarea name="ideia-publicos" id="ideia-publicos" placeholder="Quem será afetado por essa ideia?" required></textarea>
                     </fieldset>
                     <fieldset name="campo-resultados">
                         <legend>Resultados esperados</legend>
-                        <!-- <input name="ideia-resultados-esperados" type="text" placeholder="O que se espera com a implementação dessa ideia?" id="ideia-resultados-esperados"> -->
-                        <textarea name="ideia-resultados-esperados" id="ideia-resultados-esperados" placeholder="O que se espera com a implementação dessa ideia?"></textarea>
+                        <textarea name="ideia-resultados-esperados" id="ideia-resultados-esperados" placeholder="O que se espera com a implementação dessa ideia?" required></textarea>
                     </fieldset>
                     <fieldset name="campo-custos">
                         <legend>Custos da ideia</legend>
-                        <!-- <input name="ideia-custos" type="text" placeholder="O que a ideia precisa para ser implementada?" id="ideia-custos"> -->
-                        <textarea name="ideia-custos" id="ideia-custos" placeholder="O que a ideia precisa para ser implementada?"></textarea>
+                        <textarea name="ideia-custos" id="ideia-custos" placeholder="O que a ideia precisa para ser implementada?" required></textarea>
                     </fieldset>
                 </div>
                 <div class="form-col">
@@ -166,17 +160,17 @@
                     </fieldset>
                     <fieldset name="campo-desafio">
                         <legend>Inscrever ideia em um desafio</legend>
-                        <select name="ideia-desafio" id="ideia-desafio">
+                        <select name="ideia-desafio" id="ideia-desafio" required>
                             <option value="">Selecione um desafio</option>
                             <option value="sem-desafio">Sem desafio</option>
                             <option value="reforma-sede">Reforma da sede</option>
                             <option value="percepcao-valor">Aumento da percepção de valor agregado</option>
                         </select>
                     </fieldset>
-                    <fieldset name="campo-grupo">
+                    <fieldset name="campo-grupo" title="Ecolha um grupo"    >
                         <legend>Selecione grupo de coautores</legend>
                         <div class="agrupamento-grupos">
-                            <input type="radio" name="grupo" id="grupo-1" value="1">
+                            <input type="radio" name="grupo" id="grupo-1" value="1" required title="Ecolha um grupo">
                             <label for="grupo-1">
                                 <div class="grupo-card">
                                     <p>Formado em 13/02/2023</p>
