@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D5E6ED;
+}
+
+header,
+footer {
+    background-color: #F5F5F5;
+    height: 12%;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4%;
+    color: #1B2023;
+}
+
+footer {
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#logo-empresa {
+    max-width: 300px;
+    max-height: calc(100% - 20px);
+    /*altura do pai (header) -20px para as margens*/
+}
+
+#logo-KER {
+    scale: 125%;
+    max-width: 130px;
+}
+
+#body-row {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 0px;
+    min-height: 76%;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 4% 2%;
+    min-height: 100%;
+    height: fit-content;
+    max-width: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+
+nav {
+    position: relative;
+    background-color: #2766A9;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    padding: 4% 0px 0px 0px;
+}
+
+#buttons {
+    position: fixed;
+    width: inherit;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+nav button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px 0px 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A5CEE0;
+    width: 100%;
+    height: 7%;
+}
+
+#selection-bar {
+    width: 1%;
+    background-color: #F5F5F5;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+
+#selected-nav {
+    color: white;
+}
+
+#selected-nav path {
+    stroke: white;
+}
+
+#selected-nav #selection-bar {
+    opacity: 1;
+}
+
+.estilizacao-de-conteiners {
+    width: 70%;
+    height: 100%;
+}
+
+.container-desafios {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 20px;
+    width: 24.8%;
+    height: 65.3%;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.container-desafios img {
+    margin-bottom: 10%;
+}
+
+
+.conteiner-perfil {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 30%;
+    width: 85%;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dadosperfil {
+    display: flex;
+    position: relative;
+    left: -10%;
+    flex-direction: column;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1%;
+    font-size: 20px;
+
+}
+
+.fotodeperfil {
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    clip-path: circle();
+    align-self: center;
+}
+
+.conteiner-grupos {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 30%;
+    width: 85%;
+    border-radius: 12px;
+    margin-top: 3%;
+}
+
+.grupos-imagens {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 0px;
+    overflow: hidden;
+}
+
+.grupos-imagens img {
+    display: flex;
+    width: 20%;
+    clip-path: circle();
+    margin: 1%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.conteiner-grupos h2 {
+    margin: 0px 0px 0px 20px;
+}
+
+
+.conteiner-ideias-recentes {
+    display: flex;
+    background-color: #F5F5F5;
+    margin-top: 3%;
+    padding: 20px;
+    padding-bottom: 50px;
+    height: 14em;
+    width: 85%;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.conteiner-ideias-imagens {
+    display: flex;
+    height: 70%;
+    gap: 50px;
+    margin-left: 50px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.conteiner-ideias-recentes h2 {
+    margin-left: 20px;
+}
+
+.conteiner-contato {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 30%;
+    width: 85%;
+    border-radius: 12px;
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+.esquerda {
+    display: flex;
+    text-align: left;
+    gap: 40%;
+}
+
+.direita {
+    display: flex;
+    text-align: right;
+    gap: 50%;
+}
