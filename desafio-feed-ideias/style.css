@@ -43,13 +43,11 @@ main{
     padding: 4% 2%;
     min-height: 100%;
     height: fit-content;
-<<<<<<<< HEAD:feed-desafios/style.css
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-========
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -57,7 +55,6 @@ main{
     gap: 56px;
 
     color: #1B2023;
->>>>>>>> origin/desafio-feed-ideias:desafio-feed-ideias/style.css
 }
 nav{
     position: relative;
@@ -112,7 +109,6 @@ nav button{
     opacity: 1;
 }
 
-<<<<<<<< HEAD:feed-desafios/style.css
 /*---------- estilização do conteúdo da main ↓*/
 /*---------- Cabeçalho  */
 #cabecalho{
@@ -185,7 +181,7 @@ nav button{
     font-size: 24px;
     line-height: 36px;
     color: #F5F5F5;
-========
+}
 /*------------ estilos da main ↓ */
 .cabecalho-desafio{
     background: #F5F5F5;
@@ -283,5 +279,4 @@ p{
     width: 16%;
     clip-path: circle(50%);
     margin: -1%;
->>>>>>>> origin/desafio-feed-ideias:desafio-feed-ideias/style.css
 }
