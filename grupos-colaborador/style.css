@@ -40,6 +40,10 @@ footer{
 main{
     grid-area: main;
     padding: 1% 4.8%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 16px 8px;
 }
 nav{
     grid-area: nav;
@@ -93,11 +97,14 @@ nav button{
 
 /* --------------------------------- */
 .criar-grupo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #F5F5F5;
     border-radius: 8px;
-    width: 45%;
-    height: 10rem;
-    padding: 1% 0px 0px 4%;
+    width: 48%;
+    padding-left: 4%;
+    gap: 16%;
     box-sizing: border-box;
 }
 .img-row{
@@ -105,14 +112,13 @@ nav button{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: flex-end;
-    width: inherit;
     gap: 0px;
 }
 .colabs{
     display: flex;
 }
 .img-row img, .img-row svg{
-    width: 3rem;
+    width: 10%;
 }
 .img-row img{
     clip-path: circle();
@@ -128,9 +134,10 @@ nav button{
 .grupo-card{
     box-sizing: border-box;
     background-color: #F5F5F5;
-    padding: 1em;
     border-radius: 12px;
-    height: 10rem;
+    padding: 2%;
+    width: 24%;
+    height: min-content;
 }
 .grupo-card p{
     margin: 0px;
@@ -143,13 +150,11 @@ nav button{
 }
 .grupo-card p:nth-child(2){
     font-weight: 600;
-    font-size: 16.5369px;
-    line-height: 25px;
+    font-size: 16px;
 }
 .grupo-card p:nth-child(4){
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
     margin-top: 3%;
 }
 .grupo-card div{
@@ -157,12 +162,23 @@ nav button{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: flex-end;
-    max-width: 100%;
+    position: relative;
+    left: 6%;
 }
 .grupo-card img{
-    width: 3rem;
+    width: 18.75%;
     clip-path: circle();
 }
-.grupo-card div img:nth-child(-n + 5){
+.grupo-card div img:nth-child(-n + 6){
     margin-left: -6%;
+}
+/*-----------animações*/
+.grupo-card, .criar-grupo{
+    transition-property: background-color;
+    transition-duration: 150ms;
+}
+.grupo-card:hover, .criar-grupo:hover{
+    transition-property: background-color;
+    transition-duration: 300ms;
+    background-color: #ddd;
 }
