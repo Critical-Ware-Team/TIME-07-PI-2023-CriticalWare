@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, header, footer, #body-row{
+    width: 100%;
+}
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #1B2023;
+    background-color: #D5E6ED;
+    box-sizing: border-box;
+}
+header, footer{
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4%;
+}
+footer{
+    position: absolute;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+}
+#logo-empresa{
+    height: 70%;
+}
+#logo-KER{
+    height: 50%;
+}
+#body-row{
+    display: flex;
+    position: relative;
+}
+main{
+    box-sizing: border-box;
+    padding: 4% 2%;
+    display: flex;
+    width: 76rem;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+nav{
+    box-sizing: border-box;
+    position: relative;
+    background-color: #2766A9;
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    padding: 1.8% 0px 0px 0px;
+}
+#buttons{
+    position: fixed;
+    width: fit-content;
+}
+nav button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    background-color: transparent;
+    border: none;
+    padding: 0.2rem 0px 0.2rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A5CEE0;
+    width: 16vw;
+}
+#selection-bar{
+    width: 1%;
+    background-color: #F5F5F5;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+#selected-nav{
+    color: white;
+}
+#selected-nav path{
+    stroke: white;
+}
+#selected-nav #selection-bar{
+    opacity: 1;
+}
+
+/* --------------------------------- */
+.criar-grupo{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    width: 45%;
+    height: 10rem;
+    padding: 1% 0px 0px 4%;
+    box-sizing: border-box;
+}
+.img-row{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    width: inherit;
+    gap: 0px;
+}
+.colabs{
+    display: flex;
+}
+.img-row img, .img-row svg{
+    width: 3rem;
+}
+.img-row img{
+    clip-path: circle();
+}
+.img-row img:nth-child(-n + 9){
+    margin-left: -4%;
+}
+.img-row img:nth-child(1){
+    margin-left: 2%;
+}
+
+
+.grupo-card{
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    padding: 1em;
+    border-radius: 12px;
+    height: 10rem;
+}
+.grupo-card p{
+    margin: 0px;
+}
+.grupo-card p:nth-child(1){
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 8px;
+    text-transform: uppercase;
+}
+.grupo-card p:nth-child(2){
+    font-weight: 600;
+    font-size: 16.5369px;
+    line-height: 25px;
+}
+.grupo-card p:nth-child(4){
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 3%;
+}
+.grupo-card div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+.grupo-card img{
+    width: 3rem;
+    clip-path: circle();
+}
+.grupo-card div img:nth-child(-n + 5){
+    margin-left: -6%;
+}
