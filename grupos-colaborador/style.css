@@ -39,13 +39,15 @@ footer{
 }
 main{
     grid-area: main;
-    padding: 4% 16% 4% 4%;
+    padding: 14% 8% 4% 8%;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px 8px;
     box-sizing: border-box;
+
+    position: relative;
 }
 nav{
     grid-area: nav;
@@ -98,6 +100,24 @@ nav button{
 }
 
 /* --------------------------------- */
+.titulo{
+    position: absolute;
+    left: 0;
+    top: 7%;
+    background-color: #2766A9;
+    border-radius: 0 40px 32px 0;
+    padding: 0.5% 32% 0.5% 9%;
+    color: #F5F5F5;
+    box-shadow: inset 4px 0px 4px rgba(0, 0, 0, 0.33);
+}
+h1{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
 .criar-grupo{
     display: flex;
     flex-direction: column;
@@ -106,7 +126,8 @@ nav button{
     border-radius: 8px;
     width: 48%;
     padding-left: 4%;
-    gap: 16%;
+    /* gap: 16%; */
+    justify-content: space-around;
     box-sizing: border-box;
 }
 .img-row{
