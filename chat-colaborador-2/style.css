@@ -90,3 +90,30 @@ nav button{
 #selected-nav #selection-bar{
     opacity: 1;
 }
+
+
+.titulo-grupo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.titulo-grupo h1{
+    margin: 0px;
+}
+.titulo-grupo p{
+    margin: 0px;
+}
+
+.cabecalho-grupo{
+    display: flex;
+    width: 100%;
+    flex: none;
+    background-color: #2766A9;
+}
+
+.cabecalho-grupo img{
+    width: 3%;
+    height: 3%;
+    padding-left: 70%;
+    padding-top: 2%;
+}
