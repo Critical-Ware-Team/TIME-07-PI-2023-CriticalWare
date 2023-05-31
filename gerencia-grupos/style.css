@@ -8,6 +8,16 @@ html, body, header, footer, #body-row{
 p, h1, h2, h3{
     margin: 0px;
 }
+main{
+    grid-area: main;
+    padding: 14% 8% 4% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 8px;
+    box-sizing: border-box;
+    position: relative;
+}
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
