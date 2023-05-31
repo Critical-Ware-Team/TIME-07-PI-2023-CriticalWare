@@ -40,6 +40,7 @@ footer{
 main{
     grid-area: main;
     padding: 1% 4.8%;
+    position: relative;
 }
 nav{
     grid-area: nav;
@@ -105,10 +106,13 @@ nav button{
 }
 
 .cabecalho-grupo{
+    position: absolute;
     display: flex;
     width: 100%;
     flex: none;
     background-color: #2766A9;
+    top: 0;
+    left: 0;
 }
 
 .cabecalho-grupo img{
@@ -117,3 +121,23 @@ nav button{
     padding-left: 70%;
     padding-top: 2%;
 }
+
+.balao-chat {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+
+.balao-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0% 0% 0%;
+  }
+  
+.nome-usuario {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
