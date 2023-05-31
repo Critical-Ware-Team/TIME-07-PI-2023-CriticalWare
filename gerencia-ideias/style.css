@@ -147,12 +147,12 @@ nav button{
     margin-top: 16px;
     flex: none;
 }
-.desafio-ideia{
+.ideia-card p{
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.titulo-ideia{
+.ideia-card h2{
     font-size: 16px;
     font-weight: 600;
 }
@@ -163,12 +163,21 @@ nav button{
     max-width: 90%;
     max-height: 50%;
     overflow-y: scroll;
-
-    position: relative;
 }
 .ideia-img img{
-    box-sizing: border-box;
     width: 100%;
-    position: relative;
-    bottom: 0;
+}
+.autor{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.autor p:nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+}
+.autor img{
+    clip-path: circle();
+    width: 24%;
 }
