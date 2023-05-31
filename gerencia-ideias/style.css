@@ -98,6 +98,10 @@ nav button{
     min-height: 100%;
     width: 24%;
     background-color: #F5F5F5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ideia-col:nth-child(n + 2){
     margin-left: 2%;
@@ -108,6 +112,7 @@ nav button{
     box-sizing: border-box;
     border-left: 3.5px solid;
     border-bottom: 3.5px solid;
+    border-bottom-left-radius: 8px;
 }
 .ideia-col h2{
     font-weight: 700;
@@ -133,4 +138,37 @@ nav button{
 .ideia-col:nth-child(5) .status-col{
     color: #FB961F;
     border-color: #FB961F;
+}
+.ideia-card{
+    background-color: #D5E6ED;
+    width: 85%;
+    border-radius: 12px;
+    padding: 8px;
+    margin-top: 16px;
+    flex: none;
+}
+.desafio-ideia{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.titulo-ideia{
+    font-size: 16px;
+    font-weight: 600;
+}
+.ideia-img{
+    box-sizing: border-box;
+    border: 5px solid #F5F5F5;
+    border-radius: 12px;
+    max-width: 90%;
+    max-height: 50%;
+    overflow-y: scroll;
+
+    position: relative;
+}
+.ideia-img img{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
