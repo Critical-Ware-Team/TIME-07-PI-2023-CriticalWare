@@ -142,10 +142,11 @@ nav button{
 .ideia-card{
     background-color: #D5E6ED;
     width: 85%;
+    height: fit-content;
     border-radius: 12px;
     padding: 8px;
     margin-top: 16px;
-    flex: none;
+    overflow: hidden;
 }
 .ideia-card p{
     font-size: 12px;
