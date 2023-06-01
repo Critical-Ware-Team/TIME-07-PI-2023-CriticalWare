@@ -39,7 +39,6 @@ footer{
 }
 main{
     grid-area: main;
-    padding: 1% 4.8%;
     position: relative;
 }
 nav{
@@ -106,13 +105,14 @@ nav button{
 }
 
 .cabecalho-grupo{
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 100%;
+    width: 103%;
     flex: none;
     background-color: #2766A9;
     top: 0;
     left: 0;
+    justify-content: flex-start;
 }
 
 .cabecalho-grupo img{
@@ -122,22 +122,36 @@ nav button{
     padding-top: 2%;
 }
 
-.balao-chat {
+.balao-texto {
     background-color: #f1f1f1;
     border-radius: 10px;
-    padding: 10px;
-    max-width: 300px;
-    margin-bottom: 10px;
+    padding: 1%;
+    width: fit-content;
   }
 
 .balao-container {
     display: flex;
     flex-direction: column;
-    margin: 10% 0% 0% 0%;
+    margin: 3% 0% 0% 0%;
+    justify-content: flex-start;
+    padding-left: 2%;
   }
-  
+
+  .balao-container-voce{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0% 0% 0%;
+    justify-content: flex-start;
+    padding-right: 2%;
+}
+
+.balao-direita{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nome-usuario {
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin: 0;
   }
