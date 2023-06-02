@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html, body, header, footer, #body-row{
+html,
+body,
+header,
+footer,
+#body-row {
     width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-p, h1, h2, h3{
+
+p,
+h1,
+h2,
+h3 {
     margin: 0px;
 }
-body{
+
+body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     color: #1B2023;
@@ -17,42 +26,52 @@ body{
     grid-template-columns: 16vw 1fr;
     grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas: "header header"
-                         "nav main"
-                         "footer footer";
+        "nav main"
+        "footer footer";
 }
-header, footer{
+
+header,
+footer {
     background-color: #F5F5F5;
     display: flex;
     align-items: center;
     padding: 0 4%;
 }
-header{
+
+header {
     grid-area: header;
     justify-content: space-between;
 }
-footer{
+
+footer {
     grid-area: footer;
     justify-content: flex-end;
 }
-#logo-empresa, #logo-KER{
+
+#logo-empresa,
+#logo-KER {
     max-width: 10%;
 }
-main{
+
+main {
     grid-area: main;
     position: relative;
 }
-nav{
+
+nav {
     grid-area: nav;
     background-color: #2766A9;
     padding-top: 8%;
     position: relative;
 }
-#buttons{
+
+#buttons {
     position: fixed;
     left: 0;
     width: fit-content;
 }
-nav button{
+
+nav button {
     position: relative;
     display: flex;
     align-items: center;
@@ -72,7 +91,8 @@ nav button{
     padding: 4% 8% 4% 24%;
 
 }
-#selection-bar{
+
+#selection-bar {
     width: 1%;
     background-color: #F5F5F5;
     height: 100%;
@@ -81,31 +101,36 @@ nav button{
     left: 0px;
     opacity: 0;
 }
-#selected-nav{
+
+#selected-nav {
     color: white;
 }
-#selected-nav path{
+
+#selected-nav path {
     stroke: white;
 }
-#selected-nav #selection-bar{
+
+#selected-nav #selection-bar {
     opacity: 1;
 }
 
 
-.titulo-grupo{
+.titulo-grupo {
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-.titulo-grupo h1{
-    margin: 0px;
-}
-.titulo-grupo p{
+
+.titulo-grupo h1 {
     margin: 0px;
 }
 
-.cabecalho-grupo{
-    position: relative;
+.titulo-grupo p {
+    margin: 0px;
+}
+
+.cabecalho-grupo {
+    position: absolute;
     display: flex;
     width: 103%;
     flex: none;
@@ -115,7 +140,7 @@ nav button{
     justify-content: flex-start;
 }
 
-.cabecalho-grupo img{
+.cabecalho-grupo img {
     width: 3%;
     height: 3%;
     padding-left: 70%;
@@ -127,17 +152,19 @@ nav button{
     border-radius: 10px;
     padding: 1%;
     width: fit-content;
-  }
+}
 
 .balao-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     margin: 3% 0% 0% 0%;
     justify-content: flex-start;
     padding-left: 2%;
-  }
+    top: 10%;
+}
 
-  .balao-container-voce{
+.balao-container-voce {
     display: flex;
     flex-direction: column;
     margin: 3% 0% 0% 0%;
@@ -145,13 +172,48 @@ nav button{
     padding-right: 2%;
 }
 
-.balao-direita{
+.balao-direita {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    top: 10%;
 }
 
 .nome-usuario {
     font-size: 14px;
     font-weight: bold;
     margin: 0;
+}
+
+
+.chat-container {
+   position: absolute;
+   top: 92%;
+   width: 100%;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    height: 50px;
+    gap: 40px;
+  }
+
+  .input-text {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #D5E6ED;
+    width: 60%;
+    height: 50%;
+  }
+
+  .input-button {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 23px;
+    height: 23px;
+    background-image:url(images/enviar-msg.svg);
   }
