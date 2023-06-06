@@ -208,3 +208,34 @@ nav button{
 .ideia-card:hover{
     background-color: #CADAE1;
 }
+
+/* ------------------- filtro */
+
+header form{
+    width: max-content;
+}
+header fieldset{
+    border: none;
+    padding: 0;
+    width: max-content;
+}
+header input{
+    display: none;
+}
+header label{
+    padding: 1%;
+    border-radius: 48px;
+
+    font-weight: 500;
+    font-size: 12px;
+
+    width: max-content;
+}
+header label:hover{
+    background-color: #A5CEE0;
+}
+
+header input:checked + label{
+    background-color: #2766A9;
+    color: #F5F5F5;
+}
