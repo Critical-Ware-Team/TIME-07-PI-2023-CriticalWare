@@ -212,12 +212,17 @@ nav button{
 /* ------------------- filtro */
 
 header form{
-    width: max-content;
+    width: 100%;
 }
 header fieldset{
+    box-sizing: border-box;
     border: none;
     padding: 0;
-    width: max-content;
+    margin: 0;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
 }
 header input{
     display: none;
