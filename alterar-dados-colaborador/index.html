@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://keroinovar.com.br/wp-content/uploads/2020/05/favicon-96x96-1.png" type="image/x-icon">
+    <script src="/scripts/scripts.js"></script>
     <title>estrutura colaborador</title>
 </head>
 <body>
@@ -133,19 +134,31 @@
             <p>Unidade: Ker Innovation Belo Horizonte</p>
         </div>
 
-        <div class="campo-de-dados">
-            <input type="text" placeholder="Nome">
-            <input type="text" placeholder="Sobrenome">
-            <input type="email" placeholder="Alterar Email">
-            <input type="email" placeholder="Confirmar Email">
-            <input type="tel" placeholder="Celular">
-            <input type="text" placeholder="Código">
-            <input type="text" placeholder="Local">
-            <input type="text" placeholder="Setor">
-            <input type="text" placeholder="Unidade">
-            <p>Data de Nascimento:</p>
-            <p>Sexo:</p>
-        </div>
+<div class="campo-de-dados">
+  <input type="text" placeholder="Nome">
+  <input type="text" placeholder="Sobrenome">
+  <input type="email" placeholder="Alterar Email">
+  <input type="email" placeholder="Confirmar Email">
+  <input type="tel" placeholder="Celular">
+  <input type="text" placeholder="Código">
+  <input type="text" placeholder="Local">
+  <input type="text" placeholder="Setor">
+  <input type="text" placeholder="Unidade">
+  <p>Data de Nascimento:</p>
+  <input type="text" placeholder="DD/MM/AAAA" id="data-nascimento" pattern="\d{2}\/\d{2}\/\d{4}" maxlength="10" required>
+  <p>Sexo:</p>
+  <select id="sexo">
+    <option value="masculino">Masculino</option>
+    <option value="feminino">Feminino</option>
+    <option value="nao-especificado">Não Especificado</option>
+  </select>
+  <button id="alterar">Alterar</button>
+</div>
+
+
+
+
+
     </main>
     <footer>
         <p>Powered by KER Innovation&trade;</p>
