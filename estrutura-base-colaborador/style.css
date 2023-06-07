@@ -138,3 +138,67 @@ nav button{
     font-weight: 500;
     color: #F5F5F5;
 }
+
+.checklist p {
+  margin-left: 30rem;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.checklist p::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  background-color: transparent;
+}
+
+.checklist p::after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 1px;
+  background-color: #000;
+}
+
+.checklist p:hover::before {
+  border-color: #999;
+}
+
+.checklist p.selected::after {
+  display: block;
+}
+
+.autenticacao-duas-etapas p {
+  font-size: 15px;
+  margin-left: 30rem;
+  margin-top: 1rem;
+}
+
+.autenticacao-duas-etapas p:nth-child(2) input::placeholder,
+.autenticacao-duas-etapas p:nth-child(3) input::placeholder {
+  font-style: italic;
+  color: #999;
+}
+
+.salvar-configuracoes{
+    background-color: #2766A9;
+    width: 5rem;
+    height: 2rem;
+    color: #F5F5F5;
+    margin-top: 1rem;
+    margin-left: 35rem;
+    font-size: 15px;
+    border-radius: 12px;
+    border: none;
+}
