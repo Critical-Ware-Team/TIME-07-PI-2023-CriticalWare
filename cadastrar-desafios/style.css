@@ -40,6 +40,10 @@ footer{
 main{
     grid-area: main;
     padding: 1% 4.8%;
+    display: grid;
+    grid-template-columns: 10fr 1fr 12.4fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "col-1 space col-2";
 }
 nav{
     grid-area: nav;
@@ -89,4 +93,21 @@ nav button{
 }
 #selected-nav #selection-bar{
     opacity: 1;
+}
+
+#col-1{
+    grid-area: col-1;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 0 2% 4%;
+}
+#col-2{
+    grid-area: col-2;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 0 2% 4%;
 }

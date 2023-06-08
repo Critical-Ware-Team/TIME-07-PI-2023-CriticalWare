@@ -15,7 +15,7 @@
     </header>
     <nav>
         <div id="buttons">
-            <button id="selected-nav"><!-- Avaliar Ideias -->
+            <button><!-- Avaliar Ideias -->
                 <div id="selection-bar"></div>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path 
@@ -27,7 +27,7 @@
                 </svg>
                 <p>Avaliar Ideias</p>
             </button>
-            <button><!-- Criar Desafios -->
+            <button id="selected-nav"><!-- Criar Desafios -->
                 <div id="selection-bar"></div>
                 <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path 
@@ -110,14 +110,54 @@
         </div>
     </nav>
     <main>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate corporis atque dignissimos voluptate ea nostrum labore reiciendis quos, maiores distinctio repellat modi quisquam quidem vitae! Laborum soluta ducimus mollitia quibusdam. <br><br></p>
+        <div id="col-1">
+            <h1>Desafie sua equipe</h1>
+            <form action="GET" id="form-desafio">
+                <fieldset>
+                    <legend>Título</legend>
+                    <input type="text" name="input-titulo" id="input-titulo" placeholder="Qual o título do desafio?" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Tags</legend>
+                    <input type="text" name="input-tags" id="input-tags" placeholder="Quais são as categorias do desafio?" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Descrição do problema</legend>
+                    <textarea name="input-descricao" id="input-descricao" placeholder="Descreva sua ideia" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Autores do grupo</legend>
+                    <label for="input-min-members">Mínimo:</label>
+                    <input type="text" name="input-min-members" id="input-min-members" required>
+                    <label for="input-max-members">Máximo:</label>
+                    <input type="text" name="input-max-members" id="input-max-members" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Regras adicionais</legend>
+                    <textarea name="input-regras" id="input-regras" placeholder="Descreva outras regras do desafio" cols="30" rows="10"></textarea>
+                </fieldset>
+            </form>
+        </div>
+        <div id="col-2">
+            <fieldset fomr="form-desafio">
+                <legend>Recompensas</legend>
+                <textarea name="input-recompensas" id="input-recompensas" placeholder="Descreva outras regras do desafio" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset fomr="form-desafio">
+                <legend>Anexe arquivos</legend>
+                <input type="file" name="" id="">
+            </fieldset>
+            <fieldset fomr="form-desafio">
+                <legend>Data limite</legend>
+                <label for="input-lim-dia">Dia:</label>
+                <input type="text" name="input-lim-dia" id="input-lim-dia" required>
+                <label for="input-lim-mes">Mês:</label>
+                <input type="text" name="input-lim-mes" id="input-lim-mes" required>
+                <label for="input-lim-ano">Ano:</label>
+                <input type="text" name="input-lim-ano" id="input-lim-ano" required>
+            </fieldset>
+            <button type="submit" form="form-desafio">Enviar Desafio</button>
+        </div>
     </main>
     <footer>
         <p>Powered by KER Innovation&trade;</p>
