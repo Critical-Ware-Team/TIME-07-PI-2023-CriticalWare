@@ -96,22 +96,37 @@ nav button{
 }
 
 
+h1{
+    margin-bottom: 36px;
+    font-size: 2rem;
+}
 #col-1{
     grid-area: col-1;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2% 2% 2% 4%;
-    box-sizing: border-box;
+    position: relative;
 }
 #col-2{
     grid-area: col-2;
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2% 2% 2% 4%;
+    padding-top: calc(2% + 2rem + 36px);
+    gap: 28px;
+    position: relative;
+}
+#form-desafio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
 }
 fieldset{
     border: none;
@@ -119,13 +134,101 @@ fieldset{
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
 }
 input, textarea{
     width: 100%;
+    min-height: 32px;
 }
 #input-min-members, #input-max-members{
-    width: 30%;
+    width: 24%;
 }
 #input-lim-dia, #input-lim-mes, #input-lim-ano{
     width: 20%;
+}
+
+legend{
+    font-weight: 500;
+    font-size: 16px;
+}
+textarea{
+    resize: vertical;
+    min-height: 3rem;
+}
+textarea, input{
+    border: none;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(27, 32, 35, 1);
+    padding-left: 4%;
+}
+main button{
+    background-color: #A5CEE0;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 32px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1B2023;
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 2%;
+}
+
+#input-descricao{
+    height: 8rem;
+}
+#input-regras{
+    height: 5rem;
+}
+#input-recompensas{
+    height: 5rem;
+}
+input[type="file"] {
+    display: none;
+}
+.anex-box{
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+    padding: 8% 0px;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+
+/*-----------animações*/
+.anex-box{
+    transition-property: background-color;
+    transition-duration: 150ms;
+}
+.anex-box:hover{
+    transition-property: background-color;
+    transition-duration: 300ms;
+    background-color: #ddd;
+}
+main button{
+    transition-property: background-color, color;
+    transition-duration: 150ms;
+}
+main button:hover{
+    background-color: #2766A999;
+    color: #F5F5F5;
+    transition-property: background-color, color;
+    transition-duration: 150ms;
 }
