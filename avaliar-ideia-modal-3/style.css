@@ -121,6 +121,10 @@ dialog{
     grid-area: central-bar;
     background-color: #F5F5F5;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
     
     overflow: hidden scroll;
 }
@@ -227,4 +231,74 @@ dialog #selected-nav #selection-bar{
 }
 #right-bar .new-status:nth-child(6) path{
     fill: #FE564F;
+}
+
+#central-bar form{
+    width: 100%;
+    margin: 32px 0px 8px;
+}
+#central-bar fieldset{
+    padding: 0;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+
+    position: relative;
+}
+#central-bar input{
+    width: 100%;
+    background-color: #D5E6ED;
+    border: none;
+    padding: 8px 24px;
+
+    font-family: 'Poppins', sans-serif;
+}
+#central-bar button{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    padding: 0 24px;
+    background-color: #2766A9;
+
+    font-family: 'Poppins', sans-serif;
+    color: #F5F5F5;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mensage{
+    border: 3px solid #2766A9;
+    border-radius: 12px;
+    padding: 2% 4%;
+    background-color: #A5CEE0;
+    width: 80%;
+}
+.mensage p:nth-child(1){
+    font-weight: 600;
+    font-size: 14px;
+}
+.mensage p:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
 }
