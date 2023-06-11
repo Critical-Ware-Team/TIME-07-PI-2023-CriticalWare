@@ -90,3 +90,153 @@ nav button{
 #selected-nav #selection-bar{
     opacity: 1;
 }
+
+.container-perfil{
+    background-color: #F5F5F5;
+    margin-left: 5rem;
+    width: 60rem;
+    height: 20rem;
+    border-radius: 12px;
+}
+
+.container-perfil img {
+    margin-top: 10rem;
+    margin-left: 12rem;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 15rem;
+    height: 15rem;
+}
+
+.container-perfil h2{
+    margin-left: 25rem;
+    margin-top: -22rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.container-perfil p {
+    font-weight: 500;
+    margin-left: 25rem;
+    font-size: 16px;
+}
+
+.container-grupos-ativos{
+    background-color: #F5F5F5;
+    margin-left: 5rem;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 3rem;
+    width: 56rem;
+    height: 10rem;
+}
+
+.container-grupos-ativos h2{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.container-grupos-ativos img {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 3.7rem;
+    height: 3.7rem;
+}
+
+.container-ideias-recentes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F5F5;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  border-radius: 12px;
+  width: 56rem;
+  height: 20rem;
+  padding: 2rem;
+}
+
+.container-ideias-recentes h2{
+    margin-left: -43rem;
+}
+
+    .image-container {
+    display: flex;
+    margin-left: -2rem;
+    margin-top: 4rem;
+    }
+
+    .container-ideias-recentes img {
+    margin-top: -2rem;
+    margin-left: 2rem;
+    object-fit: cover;
+    overflow: hidden;
+    width: 17rem;
+    height: 15rem;
+    }
+
+    .text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 55rem;
+    margin-top: -3rem;
+    flex-wrap: wrap; 
+    }
+    .container-ideias-recentes h3 {
+    background-color: #A5CEE0;
+    text-align: center;
+    font-size: 12px;
+    width: 17rem;
+    height: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 1; 
+    }
+
+.container-contato{
+    background-color: #F5F5F5;
+    max-width: 56rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    border-radius: 12px;
+    height: 6rem;
+    font-size: 15px;
+    margin-bottom: 5rem;
+}
+
+.container-contato-invite{
+    margin-top: -11.5rem;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+    font-size: 15px;
+}
+
+.container-desafios-inscritos{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    margin-top: -76.8rem;
+    margin-left: 70rem;
+    width: 24rem;
+    height: 75rem;
+    border-radius: 12px;
+}
+
+.container-desafios-inscritos h2{
+    padding: 2rem 0rem 0rem 2.5rem;
+}
+
+.container-desafios-inscritos img{
+    max-width: 20rem;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    object-fit: cover;
+}
