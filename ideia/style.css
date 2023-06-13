@@ -241,3 +241,18 @@ dialog #selected-nav #selection-bar{
     font-size: 20px;
     line-height: 36px;
 }
+
+#central-bar{
+    background-color: #F5F5F5;
+    padding: 5rem;
+}
+
+#central-bar h2{
+    font-size: 32px;
+    margin-top: -1rem;
+    margin-left: 10rem;
+}
+
+.paragraph{
+    font-size: 24px;
+}
