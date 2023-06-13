@@ -233,18 +233,19 @@ dialog #selected-nav #selection-bar{
 }
 .imagens{
     display: flex;
-    flex-direction: column;
-    max-width:80px;
-    gap: 10px;
-    padding-left: 20px;
+    flex-direction: column; 
+    gap: 10px;   
 }
-.textos{
+.perfil{
     display: flex;
-    flex-direction: column;
     font-weight: 600;
-    margin-left: 90px;
-    margin-top: -515px;
-    gap: 45px;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 21px; 
+    max-width:80px;
+}
+.perfil p{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 15px;
+    margin-top: 15px;
 }
