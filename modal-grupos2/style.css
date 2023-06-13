@@ -181,20 +181,22 @@ dialog #selected-nav #selection-bar{
     line-height: 24px;
     margin-left: 90px;
 }
-.box{
+#box{
     width: 600px;
     height: 273px;
-    margin-top: 33px;
     margin-left: 90px;
     background: #A5CEE0;
+    border: none;   
     border-radius: 12px;
 }
 .excluir{ 
+    background-color:transparent; 
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 58px;
+    margin-top: 40px;
     margin-left:585px;
     text-decoration-line: underline;
+    border: none;
     color: #E70000;
 }
