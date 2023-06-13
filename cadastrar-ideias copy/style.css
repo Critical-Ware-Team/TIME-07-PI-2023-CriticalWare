@@ -1,0 +1,21 @@
+
+/*-----------animações*/
+.anex-box{
+    transition-property: background-color;
+    transition-duration: 150ms;
+}
+.anex-box:hover{
+    transition-property: background-color;
+    transition-duration: 300ms;
+    background-color: #ddd;
+}
+main button{
+    transition-property: background-color, color;
+    transition-duration: 150ms;
+}
+main button:hover{
+    background-color: #2766A999;
+    color: #F5F5F5;
+    transition-property: background-color, color;
+    transition-duration: 150ms;
+}
