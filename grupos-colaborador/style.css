@@ -59,6 +59,9 @@ nav{
     position: fixed;
     left: 0;
     width: fit-content;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 nav button{
     position: relative;
@@ -79,6 +82,7 @@ nav button{
     gap: 8%;
     padding: 4% 8% 4% 24%;
 
+    cursor: pointer;
 }
 #selection-bar{
     width: 1%;
