@@ -40,10 +40,10 @@ footer{
 main{
     grid-area: main;
     padding: 1% 4.8%;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 10fr 1fr 12.4fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "col-1 space col-2";
 }
 nav{
     grid-area: nav;
