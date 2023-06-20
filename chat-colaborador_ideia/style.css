@@ -130,9 +130,8 @@ nav button {
 }
 
 .cabecalho-grupo {
-    position: absolute;
     display: flex;
-    width: 103%;
+    width: 100%;
     flex: none;
     background-color: #2766A9;
     top: 0;
@@ -147,6 +146,8 @@ nav button {
     padding-top: 2%;
 }
 
+
+
 .balao-texto {
     background-color: #f1f1f1;
     border-radius: 10px;
@@ -156,7 +157,6 @@ nav button {
 
 .balao-container {
     display: flex;
-    position: relative;
     flex-direction: column;
     margin: 3% 0% 0% 0%;
     justify-content: flex-start;
@@ -168,15 +168,10 @@ nav button {
     display: flex;
     flex-direction: column;
     margin: 3% 0% 0% 0%;
-    justify-content: flex-start;
+    align-items: flex-end;
     padding-right: 2%;
-}
 
-.balao-direita {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: 10%;
+    text-align: right;
 }
 
 .nome-usuario {
@@ -185,35 +180,41 @@ nav button {
     margin: 0;
 }
 
-
-.chat-container {
-   position: absolute;
-   top: 92%;
-   width: 100%;
-  }
-
-  .input-container {
+.chat-container{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
     height: 50px;
-    gap: 40px;
+    gap: 16px;
+    margin-top: 4%;
+}
+
+.input-container {
+    position: relative;
+    width: 60%;
+    display: flex;
+    align-items: center;
   }
 
-  .input-text {
+.input-text {
     border: 1px solid #ccc;
     border-radius: 4px;
+    padding: 10px;
     background-color: #D5E6ED;
-    width: 60%;
-    height: 50%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
   }
 
   .input-button {
+    position: absolute;
+    right: 10px;
     padding: 5px;
     border: none;
     border-radius: 4px;
     width: 23px;
     height: 23px;
     background-image:url(images/enviar-msg.svg);
+    background-color: transparent;
   }
