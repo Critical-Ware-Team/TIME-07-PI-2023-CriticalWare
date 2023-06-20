@@ -10,7 +10,7 @@ const navButton = [
     document.getElementById("nav-button-sair")
 ];
 navButton[0].addEventListener('click', () => {
-    // window.location.href = "../grupos-colaborador/;"
+    // window.location.href = "../feed-inicial/;"
     console.log("esta tela não foi desenvolvida");
 });
 navButton[1].addEventListener('click', () => {
