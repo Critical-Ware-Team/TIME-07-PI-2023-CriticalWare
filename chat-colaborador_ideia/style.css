@@ -24,7 +24,7 @@ body {
     background-color: #D5E6ED;
     display: grid;
     grid-template-columns: 16vw 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 85px 1fr 85px;
     grid-template-areas: "header header"
         "nav main"
         "footer footer";
