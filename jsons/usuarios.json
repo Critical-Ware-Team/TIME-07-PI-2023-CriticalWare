@@ -1,0 +1,27 @@
+{
+    "colaboradores":[
+        {
+            "nome": "Cristina Lorraine",
+            "registro": 312641,
+            "unidade": "KER Innovation Belo Horizonte",
+            "local":"Belo Horizonte - MG",
+            "setor": "Recursos Humanos",
+            "urlImg":"/arquivos-usuarios/colaboradores/Cristina_Lorraine_portrait.jpg",
+            "ideias":[1001, 1003, 1005, 1012],
+            "desafios":[0, 1, 2],
+            "grupos":[2223, 2225],
+            "contato":{
+                "email":"cristinalorraine@gmail.com",
+                "celular":"(31) 9123-4567"
+            },
+            "nascimento": "2002-09-02",
+            "sexo":"Feminino",
+            "notificacao":{
+                "email": false,
+                "desafios":true,
+                "grupos":true,
+                "ideias":true
+            }
+        }
+    ]
+}
