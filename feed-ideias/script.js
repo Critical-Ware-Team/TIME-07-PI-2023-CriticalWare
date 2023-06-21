@@ -38,10 +38,3 @@ navButton[7].addEventListener('click', () => {
 navButton[8].addEventListener('click', () => {
     window.location.href = "https://keroinovar.com.br/";
 });
-
-const desafioButton = document.getElementsByClassName('button-desafio');
-for(let i=0; i<desafioButton.length; i++){
-    desafioButton[i].addEventListener('click', () => {
-        window.location.href = "../feed-ideias/"
-    });
-}

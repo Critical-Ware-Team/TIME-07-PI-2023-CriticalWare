@@ -161,7 +161,7 @@ nav button{
     margin: 0px;
     color: #1B2023;
 }
-.desafio button{
+.button-desafio{
     background-color: #2766A9;
     border: none;
     border-radius: 12px;
@@ -171,4 +171,6 @@ nav button{
     font-size: 24px;
     line-height: 36px;
     color: #F5F5F5;
+
+    cursor: pointer;
 }
