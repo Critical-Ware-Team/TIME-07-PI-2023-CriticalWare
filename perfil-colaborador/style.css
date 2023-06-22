@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html, body, header, footer, #body-row{
+html,
+body,
+header,
+footer,
+#body-row {
     width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-p, h1, h2, h3{
+
+p,
+h1,
+h2,
+h3 {
     margin: 0px;
 }
-body{
+
+body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     color: #1B2023;
@@ -17,37 +26,56 @@ body{
     grid-template-columns: 16vw 1fr;
     grid-template-rows: 85px 1fr 85px;
     grid-template-areas: "header header"
-                         "nav main"
-                         "footer footer";
+        "nav main"
+        "footer footer";
 }
-header, footer{
+
+header,
+footer {
     background-color: #F5F5F5;
     display: flex;
     align-items: center;
     padding: 0 4%;
 }
-header{
+
+header {
     grid-area: header;
     justify-content: space-between;
 }
-footer{
+
+footer {
     grid-area: footer;
     justify-content: flex-end;
 }
-#logo-empresa, #logo-KER{
+
+#logo-empresa,
+#logo-KER {
     max-width: 10%;
 }
-main{
+
+main {
     grid-area: main;
-    padding: 1% 4.8%;
+    padding: 4.8%;
+    display: grid;
+    grid-template-columns: 16fr 1fr 8fr;
+    grid-template-rows: 13.75rem 1rem 7.5rem 1rem 11.875rem 1rem 7.5rem;
+    grid-template-areas: "perfil . desafios-inscritos"
+                         ". . desafios-inscritos"
+                         "grupos-ativos . desafios-inscritos"
+                         ". . desafios-inscritos"
+                         "ideias-recentes . desafios-inscritos"
+                         ". . desafios-inscritos"
+                         "contato . desafios-inscritos";
 }
-nav{
+
+nav {
     grid-area: nav;
     background-color: #2766A9;
     padding-top: 8%;
     position: relative;
 }
-#buttons{
+
+#buttons {
     position: fixed;
     left: 0;
     width: fit-content;
@@ -55,7 +83,8 @@ nav{
     display: flex;
     flex-direction: column;
 }
-nav button{
+
+nav button {
     position: relative;
     display: flex;
     align-items: center;
@@ -76,7 +105,8 @@ nav button{
 
     cursor: pointer;
 }
-#selection-bar{
+
+#selection-bar {
     width: 1%;
     background-color: #F5F5F5;
     height: 100%;
@@ -85,162 +115,146 @@ nav button{
     left: 0px;
     opacity: 0;
 }
-.selected-nav{
+
+.selected-nav {
     color: white;
 }
-.selected-nav path{
+
+.selected-nav path {
     stroke: white;
 }
-.selected-nav #selection-bar{
+
+.selected-nav #selection-bar {
     opacity: 1;
 }
 
-.container-perfil{
+.container-perfil {
+    grid-area: perfil;
     background-color: #F5F5F5;
-    margin-left: 5rem;
-    width: 60rem;
-    height: 20rem;
+    padding: 1% 8%;
+    box-sizing: border-box;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container-perfil img {
-    margin-top: 10rem;
-    margin-left: 12rem;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    overflow: hidden;
-    max-width: 15rem;
-    height: 15rem;
+    object-fit: cover;
 }
 
-.container-perfil h2{
-    margin-left: 25rem;
-    margin-top: -22rem;
-    margin-bottom: 2rem;
+.container-perfil h2 {
     font-size: 20px;
 }
 
 .container-perfil p {
     font-weight: 500;
-    margin-left: 25rem;
     font-size: 16px;
 }
 
-.container-grupos-ativos{
+.container-grupos-ativos {
+    grid-area: grupos-ativos;
     background-color: #F5F5F5;
-    margin-left: 5rem;
     border-radius: 12px;
-    padding: 2rem;
-    margin-top: 3rem;
-    width: 56rem;
-    height: 10rem;
+    padding: 1% 4%;
+    gap: 16px;
+    box-sizing: border-box;
 }
-
-.container-grupos-ativos h2{
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-}
-
-.container-grupos-ativos img {
-    margin-top: 3rem;
-    margin-left: 3rem;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    overflow: hidden;
-    max-width: 3.7rem;
-    height: 3.7rem;
-}
-
-.container-ideias-recentes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #F5F5F5;
-  margin-top: 2rem;
-  margin-left: 5rem;
-  border-radius: 12px;
-  width: 56rem;
-  height: 20rem;
-  padding: 2rem;
-}
-
-.container-ideias-recentes h2{
-    margin-left: -43rem;
-}
-
-    .image-container {
+.img-row-grupos{
     display: flex;
-    margin-left: -2rem;
-    margin-top: 4rem;
-    }
-
-    .container-ideias-recentes img {
-    margin-top: -2rem;
-    margin-left: 2rem;
-    object-fit: cover;
-    overflow: hidden;
-    width: 17rem;
-    height: 15rem;
-    }
-
-    .text-container {
-    display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 55rem;
-    margin-top: -3rem;
-    flex-wrap: wrap; 
-    }
-    .container-ideias-recentes h3 {
-    background-color: #A5CEE0;
-    text-align: center;
-    font-size: 12px;
-    width: 17rem;
-    height: 2rem;
-    margin-top: 1rem;
-    position: relative;
-    z-index: 1; 
-    }
-
-.container-contato{
-    background-color: #F5F5F5;
-    max-width: 56rem;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    padding: 2rem;
-    border-radius: 12px;
-    height: 6rem;
-    font-size: 15px;
-    margin-bottom: 5rem;
 }
-
-.container-contato-invite{
-    margin-top: -11.5rem;
-    margin-left: 50rem;
-    margin-bottom: 5rem;
-    font-size: 15px;
+.container-grupos-ativos img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 }
-
-.container-desafios-inscritos{
+.container-ideias-recentes {
+    grid-area: ideias-recentes;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #F5F5F5;
-    margin-top: -76.8rem;
-    margin-left: 70rem;
-    width: 24rem;
-    height: 75rem;
     border-radius: 12px;
+    padding: 1% 4% 2%;
 }
-
-.container-desafios-inscritos h2{
-    padding: 2rem 0rem 0rem 2.5rem;
+.image-row-ideias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.img-container{
+    background-color: #A5CEE0;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    width: 30%;
+    height: 130px;
+}
+.img-cropper-ideias{
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+.img-cropper-ideias img{
+    width: 100%;
+    object-fit: cover;
+}
+.container-ideias-recentes img {
+    object-fit: cover;
+    width: 100%;
+}
+.container-ideias-recentes h3 {
+    text-align: center;
+    font-size: 12px;
+}
+.container-contato {
+    grid-area: contato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    padding: 0 4%;
+    gap: 16px;
+    box-sizing: border-box;
 
-.container-desafios-inscritos img{
-    max-width: 20rem;
-    height: 15rem;
-    margin-top: 2rem;
-    margin-left: 2.5rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+.row-flexer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.infos, .invite {
+    width: max-content;
+}
+.container-desafios-inscritos {
+    grid-area: desafios-inscritos;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    padding: 4%;
+    overflow: hidden scroll;
+}
+.img-cropper-desafios{
+    width: 90%;
+    max-height: 164px;
+    margin-top: 32px;
+    align-self: center;
+    overflow: hidden;
+}
+.img-cropper-desafios img{
+    width: 100%;
     object-fit: cover;
 }
