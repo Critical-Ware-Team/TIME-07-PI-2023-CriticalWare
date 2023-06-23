@@ -38,9 +38,3 @@ navButton[7].addEventListener('click', () => {
 navButton[8].addEventListener('click', () => {
     window.location.href = "https://keroinovar.com.br/";
 });
-const chatCard = document.getElementsByClassName("ideia_chat");
-for(let i=0; i<chatCard.length; i++){
-    chatCard[i].addEventListener("click", () => {
-        window.location.href = "../chat-colaborador_ideia";
-    });
-}
