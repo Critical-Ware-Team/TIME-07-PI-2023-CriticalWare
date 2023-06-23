@@ -122,32 +122,53 @@
     </nav>
     <main>
         <div class="container-perfil">
-            <img src="https://images.unsplash.com/photo-1495490140452-5a226aef25d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Foto de Perfil">
-            <button>Editar Perfil</button>
-            <h4>Cristina Lorraine</h4>
-            <p>Email: cristinalorraine@gmail.com</p>
-            <p>Celular: (31) 9XXXX-XXXX</p>
-            <p>Local: Belo Horizonte - MG</p>
-            <p>Setor :Recursos Humanos</p>
-            <p>Unidade: Ker Innovation Belo Horizonte</p>
+            <div class="img-col-perfil">
+                <div class="img-cropper-perfil">
+                    <img src="https://images.unsplash.com/photo-1495490140452-5a226aef25d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Foto de Perfil">
+                </div>
+                <button class="editar-perfil">Editar Perfil</button>   
+            </div>
+            <div class="textos">
+                <h1>Cristina Lorraine</h1>
+                <p>Email: cristinalorraine@gmail.com</p>
+                <p>Celular: (31) 9XXXX-XXXX</p>
+                <p>Local: Belo Horizonte - MG</p>
+                <p>Setor: Recursos Humanos</p>
+                <p>Unidade: Ker Innovation Belo Horizonte</p>
+            </div>
         </div>
-
-        <div class="checklist">
-            <p>Receber notificações pop-up</p>
-            <p>Receber notificações por e-mail</p>
-            <p>Receber notificações de desafios</p>
-            <p>Receber notificações do grupo</p>
-            <p>Receber notificações de ideias</p>
+        <div class="configs">
+            <div class="checklist">
+                <fieldset>
+                    <input type="checkbox" id="notificacao-email" name="notificacao-email">
+                    <label for="notificacao-email">Receber notificações por e-mail</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="notificacao-desafio" name="notificacao-desafio">
+                    <label for="notificacao-desafio">Receber notificações de desafios</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="notificacao-grupo" name="notificacao-grupo">
+                    <label for="notificacao-grupo">Receber notificações do grupo</label>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="notificacao-ideias" name="notificacao-ideias">
+                    <label for="notificacao-ideias">Receber notificações de ideias</label>
+                </fieldset>
+            </div>
+            <div class="autenticacao-duas-etapas">
+                <h2>Verificação em duas etapas</h2>
+                <fieldset>
+                    <label for="verificacao-codigo">E-mail:</label>
+                    <input type="text" placeholder="Digite seu e-mail" id="verificacao-email" name="verificacao-email">
+                </fieldset>
+                <fieldset>
+                    <label for="verificacao-codigo">Código:</label>
+                    <input type="text" placeholder="Digite o código" id="verificacao-codigo" name="verificacao-codigo">
+                </fieldset>
+            </div>
+            <button class="salvar-configuracoes">Salvar</button>
         </div>
-
-        <div class="autenticacao-duas-etapas">
-        <p style="font-weight: 800;">Verificação em duas etapas</p>
-        <p>E-mail: <input type="text" placeholder="Digite seu e-mail"></p>
-        <p>Código: <input type="text" placeholder="Digite o código"></p>
-        </div>
-        
-        <button class="salvar-configuracoes">Salvar</button>
-
     </main>
     <footer>
         <p>Powered by KER Innovation&trade;</p>
