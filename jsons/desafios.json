@@ -1,0 +1,38 @@
+{
+    "desafios":[
+        {
+            "id":0,
+            "titulo":"Sem desafio",
+            "urlImg":"https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+            "descricao":"",
+            "tags":[""],
+            "autor":"",
+            "regras":{
+                "minGrupo":1,
+                "maxGrupo":"",
+                "regrasAdicionais":""
+            },
+            "recompensas":"",
+            "anexos":[],
+            "dataLimite":"",
+            "ideias":[]
+        },
+        {
+            "id":1,
+            "titulo":"Melhoria da infraestrutura da sede",
+            "urlImg":"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "descricao":"O desafio tem como objetivo buscar ideias criativas e inovadoras para aprimorar a infraestrutura da nossa sede, proporcionando um ambiente de trabalho mais eficiente, seguro e agradável para todos os colaboradores. Estamos empenhados em impulsionar a excelência em nossas instalações e convidamos você a contribuir com suas ideias para tornar nossa sede um lugar ainda melhor para trabalhar.",
+            "tags":["Reforma, Infraestrutura"],
+            "autor":"",
+            "regras":{
+                "minGrupo":1,
+                "maxGrupo":"6",
+                "regrasAdicionais":""
+            },
+            "recompensas":"",
+            "anexos":[],
+            "dataLimite":"16-06-2023",
+            "ideias":[]
+        }
+    ]
+}

@@ -3,16 +3,16 @@
         {
             "nome": "Cristina Lorraine",
             "registro": 312641,
-            "unidade": "KER Innovation Belo Horizonte",
-            "local":"Belo Horizonte - MG",
+            "unidade": "Sede Moleskine",
+            "local":"São Paulo - SP",
             "setor": "Recursos Humanos",
-            "urlImg":"/arquivos-usuarios/colaboradores/Cristina_Lorraine_portrait.jpg",
+            "urlImg":"../jsons/arquivos-usuarios/colaboradores/Cristina_Lorraine_portrait.jpg",
             "ideias":[1001, 1003, 1005, 1012],
             "desafios":[0, 1, 2],
             "grupos":[2223, 2225],
             "contato":{
                 "email":"cristinalorraine@gmail.com",
-                "celular":"(31) 9123-4567"
+                "celular":"(11) 9123-4567"
             },
             "nascimento": "2002-09-02",
             "sexo":"Feminino",
@@ -21,6 +21,29 @@
                 "desafios":true,
                 "grupos":true,
                 "ideias":true
+            }
+        },
+        {
+            "nome": "Joana Silva",
+            "registro": 987654,
+            "unidade": "Sede Moleskine",
+            "local": "São Paulo - SP",
+            "setor": "Marketing",
+            "urlImg": "../jsons/arquivos-usuarios/colaboradores/Joana_Silva_portrait.jpg",
+            "ideias": [2001, 2004, 2007],
+            "desafios": [0],
+            "grupos": [2230, 2232],
+            "contato": {
+            "email": "joanasilva@gmail.com",
+            "celular": "(11) 9876-5432"
+            },
+            "nascimento": "1995-07-15",
+            "sexo": "Feminino",
+            "notificacao": {
+            "email": true,
+            "desafios": true,
+            "grupos": false,
+            "ideias": true
             }
         }
     ]

@@ -1,0 +1,52 @@
+{
+    "grupos":[
+        {
+            "id": 2223,
+            "membros":[312641, 312642, 312643, 312644],
+            "ideias":[1001, 1005],
+            "urlImg":"https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "id": 2224,
+            "membros": [100, 200, 300],
+            "ideias": [10, 20, 30],
+            "urlImg": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "id": 2225,
+            "membros": [312641, 201, 301, 401],
+            "ideias": [1003, 1012],
+            "urlImg": ""
+        },
+        {
+            "id": 2226,
+            "membros": [102, 202],
+            "ideias": [12, 22, 32, 42],
+            "urlImg": ""
+        },
+        {
+            "id": 2227,
+            "membros": [103, 203, 303, 403, 503],
+            "ideias": [13, 23],
+            "urlImg": ""
+        },
+        {
+            "id": 2228,
+            "membros": [104, 204, 304],
+            "ideias": [14, 24, 34],
+            "urlImg": ""
+        },
+        {
+            "id": 2229,
+            "membros": [105, 205, 305, 405, 505],
+            "ideias": [15, 25, 35, 45],
+            "urlImg": ""
+        },
+        {
+            "id": 2230,
+            "membros": [106, 206, 306, 406],
+            "ideias": [16, 26],
+            "urlImg": ""
+        }
+    ]
+}

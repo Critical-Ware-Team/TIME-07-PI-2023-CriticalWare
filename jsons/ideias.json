@@ -1,5 +1,5 @@
 {
-    "ideias":[
+    "ideias": [
         {
             "id": 1001,
             "titulo": "Gatos no Estacionamento",
@@ -8,21 +8,383 @@
             "publicos": "Funcionários que utilizam o estacionamento",
             "resultados": "Encaminhamento dos animais ainda nesta estação e criação de precendente para relizar o encamimnhamento e casos futuros.",
             "custos": "O custo estimado da solução como um todo pode variar significativamente, dependendo de vários fatores, como o tamanho do estacionamento, o número de abrigos necessários, a complexidade do sistema e os recursos adicionais implementados. No entanto, posso fornecer uma estimativa geral dos possíveis custos associados à implementação dessa solução:\n\nProjeto e construção dos abrigos: O custo de projetar e construir abrigos sustentáveis para os gatos pode variar dependendo do material utilizado, do design escolhido e da escala da implementação. Pode ser necessário contratar um arquiteto ou empresa especializada em construção de abrigos para animais. Os custos podem variar de acordo com a região e o escopo do projeto, mas podem variar de algumas centenas a alguns milhares de reais por abrigo.\n\nInstalação dos abrigos: A instalação dos abrigos no estacionamento da empresa também pode envolver custos, como preparação do local, mão de obra e possíveis materiais adicionais necessários. Esses custos dependerão da complexidade da instalação e da quantidade de abrigos a serem instalados. Estimativas de instalação podem variar de alguns milhares a dezenas de milhares de reais, dependendo dos requisitos específicos.\n\nComponentes adicionais: Se forem incluídos componentes como alimentação automática, bebedouros automáticos, sistema de monitoramento por câmeras e outros recursos, haverá custos associados a esses componentes. O custo dependerá das especificações, marcas e quantidade de equipamentos necessários. Pode variar de algumas centenas a alguns milhares de reais, dependendo das escolhas feitas.\n\nManutenção contínua: É importante considerar os custos de manutenção contínua dos abrigos, incluindo a substituição de componentes desgastados, reparos eventuais e limpeza regular. Esses custos podem variar, mas é importante reservar um orçamento anual para garantir que os abrigos estejam em boas condições.\n\nAlém desses custos diretos, é importante considerar custos indiretos, como a parceria com ONGs e protetores de animais, custos de conscientização e engajamento dos funcionários, e possíveis despesas relacionadas à educação e treinamento sobre a importância do respeito aos animais.\n\nDado o escopo e a complexidade envolvidos, é recomendável consultar empresas especializadas, arquitetos e organizações de proteção animal para obter estimativas de custo mais precisas e adaptadas à sua situação específica.",
-            "anexos":[],
-            "desafio": "Sem Desafio",
-            "autores": [],
-            "status":"",
-            "comtentarios":[
+            "urlImg": "https://images.unsplash.com/photo-1490481920145-fc78891bbb99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comtentarios": [
                 {
-                    "autor":"",
-                    "mensagem":""
+                    "autor": 1001,
+                    "mensagem": ""
                 }
             ],
-            "comtentariosPrivados":[
+            "comtentariosPrivados": [
                 {
-                    "autor":"",
-                    "mensagem":""
+                    "autor": "",
+                    "mensagem": ""
                 }
+            ]
+        },
+        {
+            "id": 1002,
+            "titulo": "Aquisição de Novos Uniformes para os Funcionários",
+            "descricao": "A proposta consiste em adquirir novos uniformes para os funcionários da empresa. A renovação dos uniformes trará diversos benefícios, como a melhoria da imagem institucional, o fortalecimento da identidade visual da empresa e o aumento do conforto e bem-estar dos colaboradores durante o trabalho.\n\nAqui estão algumas informações sobre a aquisição dos uniformes:\n\nDesign Profissional: Os uniformes serão projetados com um design profissional e moderno, refletindo a identidade da empresa. Serão considerados fatores como cores, logotipo e estilo, garantindo uma aparência uniforme e profissional para os funcionários.\n\nQualidade dos Materiais: Serão selecionados materiais de alta qualidade para a confecção dos uniformes, garantindo durabilidade, conforto e facilidade de manutenção. Os materiais escolhidos também serão adequados para diferentes condições de trabalho, como resistência a manchas e facilidade de movimento.\n\nVariedade de Tamanhos e Modelos: Os uniformes estarão disponíveis em diferentes tamanhos e modelos para atender às necessidades de todos os funcionários. Serão consideradas variações como gênero, tipos de atividades realizadas e estações do ano, garantindo a adequação e o conforto de cada colaborador.\n\nProcesso de Aquisição: Será realizado um processo de cotação e seleção de fornecedores de confecção de uniformes. Serão avaliados critérios como qualidade dos materiais, prazo de entrega, capacidade de produção e custo-benefício. A escolha do fornecedor será baseada em uma análise cuidadosa, buscando garantir a melhor opção para a empresa.\n\nDistribuição e Orientações: Após a aquisição dos uniformes, será realizada uma distribuição organizada e uma comunicação clara sobre o uso adequado e a importância da identificação visual dos colaboradores. Serão fornecidas orientações sobre a correta utilização, cuidados e reposição dos uniformes, visando manter a padronização e a boa aparência ao longo do tempo.\n\nInvestimento: Será necessário um investimento financeiro para a aquisição dos uniformes. O valor dependerá da quantidade de funcionários, modelos selecionados, personalizações específicas e negociação com fornecedores. Será realizado um levantamento detalhado dos custos, considerando todas as etapas do processo, para garantir uma alocação adequada de recursos.\n\nA aquisição de novos uniformes contribuirá para fortalecer a imagem da empresa, melhorar a identificação dos funcionários e promover um ambiente de trabalho profissional e harmonioso.",
+            "problema": "Os uniformes atuais estão desgastados e desatualizados, comprometendo a imagem da empresa e o conforto dos funcionários durante o trabalho.",
+            "publicos": "Todos os funcionários da empresa que utilizam uniformes durante o expediente.",
+            "resultados": "Melhoria da imagem institucional, fortalecimento da identidade visual da empresa, aumento do conforto e bem-estar dos colaboradores, padronização visual e profissionalismo no ambiente de trabalho.",
+            "custos": "O investimento necessário para a aquisição dos novos uniformes dependerá de diversos fatores, como a quantidade de funcionários, modelos selecionados, personalizações específicas e negociação com fornecedores. Será realizado um levantamento detalhado dos custos envolvidos, considerando todas as etapas do processo, desde a confecção até a distribuição dos uniformes. O orçamento final será definido após a análise das propostas dos fornecedores e a avaliação das opções disponíveis no mercado.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+                {
+                    "autor": 1001,
+                    "mensagem": ""
+                }
+            ],
+            "comentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1003,
+            "titulo": "Reforma do Escritório",
+            "descricao": "Mobiliário Ergonômico: A escolha de mobiliário ergonômico é crucial para o conforto e a saúde dos funcionários. Cadeiras ajustáveis, mesas com altura regulável e apoio para os pés são exemplos de elementos que podem ser considerados para melhorar a postura e prevenir lesões relacionadas ao trabalho.\n\nEnergias Renováveis: A instalação de painéis solares no telhado do escritório é uma opção sustentável que permite a geração de energia limpa e reduz a dependência de fontes de energia convencionais. Além disso, poderiam ser exploradas outras fontes de energia renovável, como sistemas de captação de energia cinética ou aproveitamento de energia térmica.",
+            "problema": "Mobiliário Ergonômico: O uso de mobiliário inadequado pode levar a problemas de saúde e desconforto para os funcionários. Sentar-se em cadeiras desconfortáveis ou trabalhar em mesas que não são ajustáveis em altura pode causar dores nas costas, tensão muscular, problemas de circulação e fadiga. Esses problemas podem afetar negativamente o bem-estar dos funcionários, sua produtividade e até mesmo levar a licenças médicas devido a lesões relacionadas ao trabalho. A inclusão de mobiliário ergonômico busca resolver esses problemas, proporcionando aos funcionários uma postura correta, conforto e suporte adequados durante o trabalho.\n\nEnergias Renováveis: A dependência de fontes de energia convencionais, como a eletricidade proveniente de usinas movidas a combustíveis fósseis, contribui para a emissão de gases de efeito estufa e para o aquecimento global. Essas fontes de energia também são finitas e não sustentáveis a longo prazo. Além disso, a utilização dessas fontes convencionais de energia pode gerar altos custos para a empresa. A busca por energias renováveis, como a energia solar, permite reduzir a pegada de carbono da empresa e promover a transição para fontes de energia mais limpas e sustentáveis. Isso não apenas contribui para a preservação do meio ambiente, mas também pode levar a economias de custos a longo prazo, uma vez que a energia solar é uma fonte renovável e gratuita após o investimento inicial nos painéis solares.",
+            "publicos": "Funcionários que utilizam o estacionamento",
+            "resultados": "Mobiliário Ergonômico:\n\nMelhoria do bem-estar dos funcionários: O uso de mobiliário ergonômico proporciona maior conforto e suporte adequado para os funcionários durante o trabalho. Isso pode resultar em uma redução das dores nas costas, tensão muscular e fadiga, promovendo um ambiente de trabalho mais saudável e confortável.\n\nAumento da produtividade: Funcionários que trabalham em um ambiente ergonômico têm maior capacidade de concentração e podem realizar suas tarefas de maneira mais eficiente. Além disso, a redução do desconforto físico permite que os funcionários se sintam mais energizados e focados, resultando em um aumento geral da produtividade.\n\nPrevenção de lesões relacionadas ao trabalho: Ao utilizar mobiliário ergonômico, os funcionários estão menos propensos a desenvolver lesões musculoesqueléticas, como dores nas costas, tendinite e síndrome do túnel do carpo. Isso resulta em menos licenças médicas e redução dos custos associados a tratamentos médicos e substituição temporária de funcionários.\n\nEnergias Renováveis:\n\nRedução da pegada de carbono: Ao adotar energias renováveis, como a energia solar, a empresa reduz sua dependência de fontes de energia não renováveis, o que resulta em uma redução significativa na emissão de gases de efeito estufa. Isso contribui para mitigar as mudanças climáticas e preservar o meio ambiente.\n\nEconomia de custos a longo prazo: Embora a instalação inicial de painéis solares possa exigir um investimento significativo, a utilização de energia renovável pode levar a uma redução dos custos de energia a longo prazo. A energia solar é uma fonte gratuita e renovável, o que significa que a empresa pode economizar nos custos de eletricidade ao longo do tempo.\n\nImagem corporativa sustentável: Ao adotar práticas de energia renovável, a empresa demonstra seu compromisso com a sustentabilidade ambiental. Isso pode melhorar a imagem da empresa perante os clientes, parceiros comerciais e a comunidade, fortalecendo sua reputação como uma organização responsável e consciente do meio ambiente.\n\nEm resumo, ao abordar esses dois tópicos, espera-se melhorias no bem-estar dos funcionários, aumento da produtividade, prevenção de lesões relacionadas ao trabalho, redução da pegada de carbono, economia de custos a longo prazo e fortalecimento da imagem corporativa sustentável.",
+            "custos": "Mobiliário Ergonômico:\n\nCusto de aquisição: O mobiliário ergonômico pode ter um preço mais elevado em comparação com o mobiliário tradicional. O custo dependerá da quantidade de móveis necessários, como cadeiras ajustáveis, mesas reguláveis em altura, apoios para os pés, entre outros. É importante considerar a qualidade e durabilidade do mobiliário para garantir o máximo benefício a longo prazo. Estimativas de custo podem variar de algumas centenas a alguns milhares de reais, dependendo das necessidades e escolhas da empresa.\n\nInvestimento em pesquisa e consultoria: Antes de adquirir o mobiliário ergonômico, é recomendável realizar pesquisas e consultar especialistas em ergonomia para identificar as melhores opções para o escritório. Esse investimento inicial em pesquisa e consultoria pode adicionar custos adicionais, mas é fundamental para garantir que o mobiliário atenda às necessidades específicas dos funcionários e da empresa.\n\nEnergias Renováveis:\n\nInvestimento em infraestrutura: A instalação de energias renováveis, como painéis solares, envolve custos de infraestrutura, como aquisição e instalação dos painéis, inversores, sistema de armazenamento de energia (se aplicável) e conexão com a rede elétrica. Esses custos variam de acordo com o tamanho do sistema e a capacidade de geração desejada. Estimativas indicativas podem variar de alguns milhares a dezenas de milhares de reais.\n\nManutenção e reparos: É importante considerar os custos contínuos de manutenção e reparos do sistema de energia renovável. Embora os custos de manutenção sejam geralmente baixos, é aconselhável reservar um orçamento anual para a inspeção e limpeza dos painéis solares, substituição de componentes desgastados e eventuais reparos.\n\nRetorno do investimento (ROI): Ao avaliar os custos de implementação das energias renováveis, também é importante considerar o retorno do investimento a longo prazo. Embora a instalação inicial possa exigir um investimento significativo, os custos de eletricidade reduzidos ao longo do tempo podem levar a economias consideráveis a longo prazo.",
+            "urlImg": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2225,
+            "status": "Nova ideia",
+            "comtentarios": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ],
+            "comtentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1004,
+            "titulo": "Padronização da Identidade Visual da Empresa",
+            "descricao": "A proposta consiste em promover a padronização da identidade visual da empresa, garantindo uma imagem consistente e reconhecível em todos os materiais e canais de comunicação. A padronização da identidade visual é essencial para transmitir uma mensagem coesa e profissional aos clientes, parceiros e colaboradores.\n\nAqui estão alguns aspectos abordados na padronização da identidade visual:\n\nLogo e Marca: Será desenvolvida uma identidade visual consistente, incluindo um logotipo e marca da empresa. O logotipo será projetado levando em consideração os valores e personalidade da empresa, representando sua identidade de forma única e memorável.\n\nCores e Tipografia: Serão definidas cores e combinações de cores que reflitam a imagem e identidade da empresa. Além disso, será selecionada uma tipografia adequada que transmita a mensagem de forma clara e profissional.\n\nTemplates e Layouts: Serão criados templates e layouts padronizados para diversos materiais, como apresentações, documentos, e-mails e mídias sociais. Esses templates garantirão consistência visual em todas as comunicações da empresa.\n\nImagens e Elementos Gráficos: Serão estabelecidos direcionamentos para o uso de imagens e elementos gráficos que estejam alinhados com a identidade visual da empresa. Isso inclui o estilo de fotografias, ilustrações, ícones e outros elementos visuais utilizados nos materiais de comunicação.\n\nGuidelines e Manual de Identidade Visual: Será elaborado um guia ou manual de identidade visual que detalhe todas as diretrizes, especificações técnicas e exemplos de aplicação da identidade visual da empresa. Esse guia será uma referência para todos os colaboradores e fornecedores envolvidos na criação e produção de materiais de comunicação.\n\nImplementação Gradual: A padronização da identidade visual será implementada gradualmente em todos os materiais e canais de comunicação da empresa. Serão estabelecidos prazos e etapas para a atualização e substituição dos materiais existentes, garantindo uma transição suave e eficiente.\n\nBenefícios da Padronização: A padronização da identidade visual trará benefícios como o fortalecimento da marca, a criação de uma imagem profissional, o aumento do reconhecimento da empresa e a transmissão de confiança aos clientes e parceiros.",
+            "problema": "A empresa possui uma identidade visual inconsistente, com materiais de comunicação desatualizados e divergentes entre si, o que prejudica a imagem da empresa e dificulta o reconhecimento da marca.",
+            "publicos": "Clientes, parceiros, colaboradores e público em geral que têm contato com a empresa e seus materiais de comunicação.",
+            "resultados": "Consistência na comunicação visual da empresa, fortalecimento da marca, aumento do reconhecimento da empresa, imagem profissional e transmissão de confiança aos públicos envolvidos.",
+            "custos": "Os custos associados à padronização da identidade visual da empresa podem variar dependendo da complexidade do projeto, do número de materiais a serem atualizados e da contratação de profissionais especializados. Será necessário investir em serviços de design, criação de logotipo, desenvolvimento de templates e layouts, criação de um manual de identidade visual, além dos custos relacionados à atualização dos materiais existentes. O orçamento será definido após a avaliação das necessidades da empresa e a consulta a profissionais da área.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+                {
+                    "autor": 1001,
+                    "mensagem": ""
+                }
+            ],
+            "comentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1005,
+            "titulo": "Sistema de Cardápio em Braille para Cegos",
+            "descricao": "A proposta consiste em desenvolver um sistema de cardápio em braille para atender às necessidades de pessoas cegas ou com baixa visão. O objetivo é garantir a inclusão e acessibilidade desses indivíduos em estabelecimentos, como restaurantes, cafeterias e lanchonetes.\n\nAqui estão alguns aspectos abordados na criação do sistema de cardápio em braile:\n\nDesign Acessível: O cardápio será projetado de forma clara e legível em braille, seguindo diretrizes de design acessível para pessoas cegas. Serão consideradas questões como tamanho adequado do texto em braille, espaçamento entre linhas e contraste visual.\n\nInformações Detalhadas: O cardápio em braille incluirá informações detalhadas sobre os pratos, ingredientes, opções de personalização e preços. Será garantido que as mesmas informações disponíveis no cardápio convencional sejam apresentadas de forma equivalente no cardápio em braille.\n\nFacilidade de Uso: O sistema de cardápio em braille será projetado de forma intuitiva e fácil de usar. Será utilizada uma estrutura organizada, como categorias de pratos, para facilitar a navegação e localização das opções no cardápio.\n\nMateriais e Impressão: Serão selecionados materiais de qualidade para a impressão do cardápio em braille, garantindo a durabilidade e legibilidade. Será necessário utilizar impressoras braile ou contratar serviços especializados para a produção dos cardápios em braille.\n\nTreinamento dos Funcionários: Os funcionários dos estabelecimentos serão devidamente treinados para auxiliar os clientes cegos ou com baixa visão na utilização do cardápio em braille. Será fornecido o conhecimento necessário para orientar e responder a quaisquer perguntas sobre o cardápio.\n\nFeedback dos Clientes: Será incentivado o feedback dos clientes cegos ou com baixa visão para aprimorar continuamente o sistema de cardápio em braille. As sugestões e comentários dos usuários serão valorizados para melhorar a experiência e atender às suas necessidades específicas.\n\nLegalidade e Regulamentações: Serão consideradas as leis e regulamentações locais referentes à acessibilidade para pessoas com deficiência visual, garantindo a conformidade do sistema de cardápio em braille.\n\nBenefícios da Acessibilidade: A criação do sistema de cardápio em braille trará benefícios como inclusão de pessoas cegas ou com baixa visão, aumento da satisfação do cliente, melhoria da reputação e imagem do estabelecimento como um local inclusivo e responsável.",
+            "problema": "Atualmente, os estabelecimentos não oferecem opções acessíveis de cardápio para pessoas cegas ou com baixa visão, o que dificulta a escolha e a experiência gastronômica desses indivíduos.",
+            "publicos": "Pessoas cegas ou com baixa visão",
+            "resultados": "Inclusão de pessoas cegas ou com baixa visão em estabelecimentos, melhoria da experiência gastronômica, atendimento às regulamentações de acessibilidade e promoção de um ambiente inclusivo.",
+            "custos": "Os custos para a criação do sistema de cardápio em braille podem variar dependendo de vários fatores, como a quantidade de cardápios a serem produzidos, o material utilizado, a contratação de serviços especializados e o treinamento dos funcionários. Além disso, é importante considerar os custos contínuos para atualização e reposição dos cardápios em braille.\n\nÉ recomendado consultar empresas especializadas em impressão em braille e acessibilidade para obter estimativas de custo mais precisas, adaptadas ao contexto específico do estabelecimento.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+                {
+                    "autor": 1001,
+                    "mensagem": ""
+                }
+            ],
+            "comentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1006,
+            "titulo": "Música Ambiente na Cafeteria",
+            "descricao": "A proposta consiste em implementar um sistema de música ambiente na cafeteria, com o objetivo de criar uma atmosfera agradável e convidativa para os clientes. A música ambiente pode influenciar diretamente na experiência dos clientes, proporcionando um ambiente relaxante e aconchegante.\n\nAqui estão alguns aspectos a serem considerados na implementação do sistema de música ambiente:\n\nSeleção de Música Apropriada: Será realizada uma seleção cuidadosa de músicas que sejam adequadas ao ambiente de uma cafeteria. Serão considerados gêneros musicais suaves e relaxantes, que não interfiram na conversa dos clientes e sejam agradáveis para diferentes públicos.\n\nVolume Ajustado: O volume da música será ajustado de forma agradável, criando uma atmosfera acolhedora, mas sem interferir na comunicação entre os clientes e os funcionários. Será feito um equilíbrio para que a música esteja presente, mas não seja o foco principal.\n\nEquipamentos de Qualidade: Serão utilizados equipamentos de qualidade para garantir uma reprodução de áudio nítida e sem distorções. Será necessário investir em alto-falantes adequados e um sistema de som compatível com o espaço da cafeteria.\n\nVariedade e Atualização: Será considerada a inclusão de diferentes estilos musicais para atender aos diversos gostos dos clientes. Além disso, periodicamente, a seleção de músicas poderá ser atualizada para evitar repetições excessivas e manter o ambiente sempre agradável e renovado.\n\nFeedback dos Clientes: Será incentivado o feedback dos clientes em relação à música ambiente, permitindo que expressem suas preferências e sugestões. Isso ajudará a ajustar a seleção musical e garantir que a experiência musical atenda às expectativas dos clientes.\n\nDireitos Autorais: Será feita a devida verificação dos direitos autorais das músicas selecionadas, garantindo que a cafeteria esteja em conformidade com as leis e regulamentações de reprodução de música.\n\nMonitoramento e Controle: Será estabelecido um sistema de monitoramento e controle para ajustar o volume e a seleção de músicas conforme necessário. Os funcionários serão treinados para lidar com o sistema e garantir uma experiência musical consistente.\n\nMarketing e Divulgação: A implementação do sistema de música ambiente poderá ser divulgada aos clientes por meio de anúncios internos, mídias sociais ou outros canais de comunicação, destacando a atmosfera agradável e relaxante da cafeteria.\n\nBenefícios da Música Ambiente: A música ambiente contribui para uma experiência agradável dos clientes, cria uma atmosfera acolhedora, aumenta o tempo de permanência na cafeteria, estimula o relaxamento e pode influenciar positivamente nas vendas e fidelização dos clientes.",
+            "problema": "A cafeteria atualmente não possui um sistema de música ambiente, o que pode resultar em um ambiente menos acolhedor e relaxante para os clientes.",
+            "publicos": "Clientes da cafeteria",
+            "resultados": "Criação de uma atmosfera agradável e relaxante na cafeteria, aumento do tempo de permanência dos clientes, influência positiva nas vendas e fidelização dos clientes.",
+            "custos": "Os custos para implementação de um sistema de música ambiente podem variar dependendo dos seguintes fatores:\n\n1. Equipamentos de áudio: Será necessário investir em alto-falantes de qualidade e um sistema de som adequado ao espaço da cafeteria. Os custos podem variar de acordo com a marca, especificações técnicas e quantidade de equipamentos necessários.\n\n2. Licenciamento de músicas: Será importante garantir que as músicas reproduzidas estejam em conformidade com os direitos autorais. Pode ser necessário adquirir licenças de reprodução de músicas ou utilizar serviços de streaming que ofereçam opções de licenciamento comercial.\n\n3. Manutenção e atualização: Será necessário considerar os custos contínuos de manutenção dos equipamentos de áudio, como substituição de peças desgastadas ou obsoletas, e também os custos relacionados à atualização da seleção musical.\n\nÉ recomendado consultar fornecedores de equipamentos de áudio e provedores de serviços de música para obter estimativas de custo mais precisas e adaptadas à cafeteria específica.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+                {
+                    "autor": 1001,
+                    "mensagem": ""
+                }
+            ],
+            "comentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1007,
+            "titulo": "Evento Cultural na Cafeteria",
+            "descricao": "A proposta consiste em realizar um evento cultural na cafeteria, trazendo produtos e elementos de uma determinada cultura para complementar a experiência dos clientes. Essa iniciativa visa criar um ambiente único e proporcionar uma experiência diferenciada, estimulando o interesse e a curiosidade dos clientes.\n\nAqui estão alguns aspectos a serem considerados na realização do evento cultural:\n\nSeleção de Cultura: Será escolhida uma cultura específica para ser explorada durante o evento. Pode ser uma cultura internacional, regional ou até mesmo uma subcultura dentro da localidade. A escolha dependerá do perfil dos clientes e da identidade da cafeteria.\n\nProdutos Culturais: Serão introduzidos produtos e alimentos típicos da cultura escolhida, que estejam alinhados com a proposta da cafeteria. Por exemplo, se a cafeteria serve café, poderiam ser oferecidos tipos de café específicos da cultura escolhida, acompanhados de alimentos tradicionais.\n\nDecoração Temática: A cafeteria será decorada com elementos que representem a cultura escolhida, como bandeiras, artesanatos, obras de arte, fotografias e outros itens relacionados. Isso ajudará a criar uma atmosfera autêntica e imersiva.\n\nAtividades e Entretenimento: Poderão ser oferecidas atividades culturais, como apresentações de música ao vivo, danças típicas, palestras ou workshops relacionados à cultura escolhida. Isso contribuirá para envolver os clientes e proporcionar uma experiência interativa.\n\nParcerias e Colaborações: Será possível estabelecer parcerias com entidades ou indivíduos da cultura escolhida, como artistas, artesãos, chefs ou especialistas na culinária e tradições culturais. Isso agregará autenticidade e conhecimento ao evento.\n\nMarketing e Divulgação: A realização do evento cultural será divulgada aos clientes por meio de anúncios internos, redes sociais, site da cafeteria ou outros canais de comunicação. Destacar a proposta única e exclusiva do evento ajudará a atrair o interesse e a participação dos clientes.\n\nFeedback dos Clientes: Será incentivado o feedback dos clientes em relação ao evento cultural, permitindo que expressem suas opiniões, sugestões e avaliações. Isso ajudará a avaliar o sucesso do evento e a identificar oportunidades de melhoria para futuras edições.\n\nBenefícios do Evento Cultural: O evento cultural trará uma experiência diferenciada aos clientes, proporcionando uma imersão na cultura escolhida. Isso contribuirá para a fidelização dos clientes, criação de novos atrativos para a cafeteria e aumento da visibilidade da marca.",
+            "problema": "A cafeteria busca inovar e oferecer experiências únicas aos clientes, além de aumentar a visibilidade da marca.",
+            "publicos": "Clientes da cafeteria e entusiastas da cultura escolhida.",
+            "resultados": "Criação de uma experiência diferenciada para os clientes, aumento da visibilidade da marca, fidelização dos clientes e possibilidade de expansão do público-alvo.",
+            "custos": "Os custos para a realização de um evento cultural podem variar dependendo dos seguintes fatores:\n\n1. Produtos Culturais: Será necessário adquirir produtos e alimentos típicos da cultura escolhida. Os custos dependerão da disponibilidade dos produtos e da quantidade a ser adquirida.\n\n2. Decoração Temática: Serão utilizados elementos de decoração que representem a cultura escolhida. Os custos dependerão da quantidade e da complexidade dos itens de decoração escolhidos.\n\n3. Parcerias e Colaborações: Caso sejam estabelecidas parcerias com artistas, chefs ou especialistas da cultura escolhida, poderá haver custos envolvidos, como pagamento por serviços ou apoio logístico.\n\n4. Atividades e Entretenimento: Se forem oferecidas apresentações musicais ao vivo, danças típicas ou workshops, poderão existir custos relacionados a cachês de artistas, aluguel de equipamentos de som ou materiais necessários para as atividades.\n\n5. Marketing e Divulgação: Será necessário investir em estratégias de marketing e divulgação do evento, como anúncios pagos em redes sociais, produção de materiais gráficos ou contratação de serviços de assessoria de imprensa.\n\nÉ recomendado elaborar um plano de orçamento detalhado, considerando todos os aspectos do evento cultural, e buscar parcerias ou patrocínios que possam auxiliar na redução dos custos.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+                {
+                    "autor": 1001,
+                    "mensagem": ""
+                }
+            ],
+            "comentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1008,
+            "titulo": "Melhora dos Banheiros",
+            "descricao": "A proposta consiste em realizar melhorias nos banheiros da cafeteria, visando proporcionar aos clientes uma experiência mais confortável, higiênica e agradável durante sua visita. A melhora dos banheiros é essencial para garantir a satisfação dos clientes e transmitir uma imagem positiva da cafeteria. Aqui estão algumas sugestões de melhorias a serem consideradas:\n\nRenovação da Infraestrutura: Serão realizadas reformas para melhorar a infraestrutura dos banheiros, incluindo a renovação de pisos, paredes, portas, iluminação e ventilação. Isso ajudará a criar um ambiente mais moderno e aconchegante.\n\nLimpeza e Manutenção Regular: Será implementado um plano de limpeza e manutenção regular dos banheiros, com frequência adequada para garantir que estejam sempre limpos, abastecidos com papel higiênico, sabonete líquido e toalhas de papel. Além disso, serão instalados lixeiras adequadas e higienizadas regularmente.\n\nAcessibilidade: Os banheiros serão adaptados para atender às necessidades de pessoas com deficiência ou mobilidade reduzida, seguindo as diretrizes de acessibilidade estabelecidas. Serão instaladas barras de apoio, pias e espelhos em altura adequada, além de portas com largura suficiente para a passagem de cadeiras de rodas.\n\nEspaço para Troca de Fraldas: Será criado um espaço dedicado à troca de fraldas, equipado com uma mesa adequada, lixeira específica para descarte de fraldas e acesso fácil a água e sabão para higienização.\n\nDecoração e Ambiente Agradável: Os banheiros serão decorados de forma agradável, com elementos que transmitam a identidade da cafeteria. Serão utilizados espelhos, quadros, plantas ou outros elementos decorativos para criar um ambiente acolhedor e aconchegante.\n\nFeedback dos Clientes: Será incentivado o feedback dos clientes em relação aos banheiros, permitindo que expressem suas opiniões, sugestões e avaliações. Isso ajudará a identificar oportunidades de melhoria contínua e garantir que as melhorias implementadas atendam às expectativas dos clientes.\n\nBenefícios da Melhora dos Banheiros: As melhorias nos banheiros contribuirão para a satisfação dos clientes, proporcionando-lhes um ambiente limpo, confortável e acessível. Isso resultará em uma experiência positiva, fidelização dos clientes e recomendações positivas para atrair novos clientes.",
+            "problema": "Os banheiros atuais da cafeteria não oferecem uma experiência confortável e higiênica para os clientes, impactando negativamente a imagem da cafeteria e a satisfação dos clientes.",
+            "publicos": "Clientes da cafeteria, incluindo pessoas com deficiência ou mobilidade reduzida, e famílias com bebês.",
+            "resultados": "Melhora da experiência dos clientes nos banheiros, aumento da satisfação e fidelização dos clientes, imagem positiva da cafeteria, atração de novos clientes e recomendações positivas.",
+            "custos": "Os custos para a melhora dos banheiros podem variar dependendo dos seguintes fatores:\n\n1. Renovação da Infraestrutura: Os custos dependerão do escopo da renovação, incluindo materiais, mão de obra e eventuais contratações de serviços especializados. É recomendado obter orçamentos de empresas de construção e reforma para estimar os custos com precisão.\n\n2. Limpeza e Manutenção Regular: Será necessário reservar um orçamento para a contratação de serviços de limpeza e manutenção regular dos banheiros. Os custos dependerão da frequência dos serviços e do tamanho dos banheiros.\n\n3. Acessibilidade: Os custos para adaptação dos banheiros às necessidades de pessoas com deficiência ou mobilidade reduzida dependerão do escopo das alterações necessárias. Podem envolver a contratação de serviços especializados e a aquisição de equipamentos específicos, como barras de apoio e pias adaptadas.\n\n4. Espaço para Troca de Fraldas: Será necessário investir na criação do espaço para troca de fraldas, incluindo a aquisição de uma mesa adequada, lixeira específica e materiais de higienização.\n\n5. Decoração e Ambiente Agradável: Os custos dependerão das escolhas de decoração e dos elementos a serem utilizados. Podem incluir a compra de espelhos, quadros, plantas e outros itens decorativos.\n\nÉ recomendado elaborar um plano de orçamento detalhado, levando em consideração todos os aspectos da melhora dos banheiros, e buscar parcerias ou fornecedores que ofereçam soluções acessíveis e de qualidade.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+                {
+                    "autor": 1001,
+                    "mensagem": ""
+                }
+            ],
+            "comentariosPrivados": [
+                {
+                    "autor": "",
+                    "mensagem": ""
+                }
+            ]
+        },
+        {
+            "id": 1009,
+            "titulo": "Adicionar Papel de Parede na Parede Esquerda à Porta",
+            "descricao": "Esta proposta consiste em adicionar papel de parede na parede esquerda à porta da cafeteria. A ideia é utilizar o papel de parede como um elemento decorativo para criar um ponto focal e dar um toque especial ao ambiente. O papel de parede pode ser escolhido de acordo com o estilo e identidade da cafeteria, combinando com o restante da decoração. Alguns pontos a serem considerados para a aplicação do papel de parede incluem:\n\nEscolha do Papel de Parede: Será necessário selecionar um papel de parede que se harmonize com o ambiente da cafeteria. Pode-se optar por um padrão que transmita a atmosfera da cafeteria, como motivos relacionados a café, alimentos ou elementos naturais.\n\nInstalação Profissional: Recomenda-se contratar um profissional qualificado para realizar a instalação do papel de parede. Isso garantirá um resultado estético e duradouro, evitando problemas como bolhas, vincos ou desalinhamentos.\n\nPosicionamento Estratégico: A parede esquerda à porta pode ser um local estratégico para aplicar o papel de parede, pois é uma área visível e que pode chamar a atenção dos clientes ao entrarem na cafeteria. O posicionamento deve ser cuidadosamente planejado para garantir uma aparência equilibrada e atraente.\n\nBenefícios da Adição do Papel de Parede: A adição do papel de parede na parede esquerda à porta contribuirá para a estética do ambiente, adicionando um elemento de destaque e personalidade. Isso pode criar uma atmosfera mais acolhedora e cativante para os clientes, proporcionando uma experiência visualmente agradável.",
+            "problema": "A parede esquerda à porta da cafeteria apresenta uma superfície vazia e pouco atrativa, não contribuindo para a estética do ambiente.",
+            "publicos": "Clientes da cafeteria e visitantes que passam pela porta de entrada.",
+            "resultados": "Melhoria estética do ambiente, criação de um ponto focal atraente, aumento da percepção de cuidado e atenção aos detalhes, atração e retenção de clientes.",
+            "custos": "Os custos para adicionar papel de parede na parede esquerda à porta podem variar dependendo dos seguintes fatores:\n\n1. Escolha do Papel de Parede: O preço do papel de parede varia de acordo com o estilo, marca e qualidade. É recomendado buscar opções que se adequem ao orçamento da cafeteria.\n\n2. Instalação Profissional: Será necessário contratar um profissional para realizar a instalação do papel de parede. Os custos dependerão da experiência e reputação do profissional, além do tamanho da parede.\n\n3. Material e Ferramentas: Além do papel de parede, podem ser necessários outros materiais e ferramentas para a instalação, como cola, régua, estilete, espátula, entre outros.\n\n4. Manutenção e Substituição: É importante considerar os custos futuros de manutenção e substituição do papel de parede, caso seja necessário.\n\nRecomenda-se fazer um levantamento de preços e solicitar orçamentos para obter uma estimativa precisa dos custos envolvidos.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
+            ]
+        },
+        {
+            "id": 1010,
+            "titulo": "Adicionar Estante de Livros para Leitura",
+            "descricao": "Esta proposta consiste em adicionar uma estante de livros na cafeteria, permitindo que os clientes desfrutem de uma leitura relaxante enquanto tomam café. A estante de livros seria colocada em uma área de destaque e seria abastecida com uma variedade de gêneros, incluindo ficção, não ficção, romance, poesia, entre outros. Alguns aspectos a serem considerados para a implementação da estante de livros incluem:\n\nSeleção de Livros: Seria necessário selecionar livros adequados para o público da cafeteria, levando em conta diferentes gostos e preferências. Os livros podem ser adquiridos por meio de doações, parcerias com editoras locais ou até mesmo permitindo que os próprios clientes deixem livros para compartilhar.\n\nOrganização e Categorização: Os livros devem ser organizados e categorizados para facilitar a busca dos clientes. É possível utilizar etiquetas ou sinalizações para indicar os diferentes gêneros ou temas disponíveis.\n\nEspaço Aconchegante de Leitura: É importante criar um espaço confortável e acolhedor próximo à estante de livros, com cadeiras ou poltronas para os clientes desfrutarem da leitura. A iluminação adequada também deve ser considerada para garantir uma experiência agradável de leitura.\n\nPromoção da Leitura: A cafeteria pode promover a leitura por meio de recomendações de livros, eventos literários, clubes de leitura ou até mesmo oferecendo descontos especiais para clientes que tragam livros usados para doação.\n\nBenefícios da Adição da Estante de Livros: A adição da estante de livros proporcionará aos clientes da cafeteria a oportunidade de relaxar e desfrutar de uma leitura prazerosa durante o tempo que passam no estabelecimento. Além de oferecer entretenimento adicional, isso também pode criar um ambiente acolhedor e diferenciado, atraindo novos clientes e incentivando a permanência dos atuais.",
+            "problema": "A cafeteria não oferece opções de entretenimento adicional para os clientes além do consumo de café, o que pode limitar a experiência do cliente e a permanência no local.",
+            "publicos": "Clientes da cafeteria, especialmente aqueles interessados em literatura e que gostam de ler durante o tempo livre.",
+            "resultados": "Criação de um ambiente mais acolhedor e diferenciado, aumento da satisfação dos clientes, aumento da permanência na cafeteria, atração de novos clientes interessados em leitura.",
+            "custos": "Os custos para adicionar uma estante de livros podem variar dependendo dos seguintes fatores:\n\n1. Aquisição de Livros: Os livros podem ser adquiridos por meio de doações, parcerias com editoras locais ou até mesmo permitindo que os próprios clientes deixem livros para compartilhar. É possível estabelecer parcerias para obter livros a custos reduzidos ou gratuitos.\n\n2. Estante e Mobiliário: Será necessário adquirir uma estante adequada para acomodar os livros. O custo dependerá do tamanho e do material escolhido. Além disso, pode ser necessário adquirir poltronas ou cadeiras confortáveis para criar o espaço de leitura. Os custos variam de acordo com a qualidade e o estilo escolhidos.\n\n3. Organização e Decoração: Para organizar os livros e criar um ambiente aconchegante, pode ser necessário investir em etiquetas, sinalizações e outros elementos de decoração. Os custos dependerão da quantidade de livros e da estética desejada.\n\nRecomenda-se fazer um levantamento de preços e solicitar orçamentos para obter uma estimativa precisa dos custos envolvidos na adição da estante de livros.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
+            ]
+        },
+        {
+            "id": 1011,
+            "titulo": "Programa de Capacitação em Inglês para Atendentes e Caixas",
+            "descricao": "Esta proposta consiste em implementar um programa de capacitação e aprendizado em inglês para os atendentes e caixas da cafeteria. O objetivo é proporcionar aos funcionários habilidades linguísticas que os ajudem a se comunicar efetivamente com clientes estrangeiros ou turistas que visitam a cafeteria. O programa pode incluir os seguintes aspectos:\n\nAulas de Inglês: Seriam oferecidas aulas regulares de inglês para os funcionários interessados. As aulas podem ser ministradas por um professor qualificado ou por meio de uma plataforma de ensino online. O conteúdo das aulas pode abranger vocabulário específico para atendimento ao cliente, expressões comuns utilizadas na cafeteria e prática de diálogos.\n\nMaterial de Apoio: Seria disponibilizado material de apoio, como livros, apostilas ou recursos online, para auxiliar os funcionários no estudo e prática do inglês. Isso permitiria que eles revisassem o conteúdo aprendido nas aulas e se aprofundassem em áreas específicas.\n\nTreinamentos Práticos: Além das aulas teóricas, seriam realizados treinamentos práticos para simular situações reais de atendimento em inglês. Os funcionários teriam a oportunidade de praticar a comunicação oral e aprimorar suas habilidades de compreensão.\n\nReconhecimento e Incentivos: Seriam estabelecidos mecanismos de reconhecimento e incentivos para os funcionários que demonstrarem progresso e esforço na aprendizagem do inglês. Isso pode incluir certificados de conclusão, recompensas ou oportunidades de crescimento dentro da empresa.\n\nBenefícios do Programa de Capacitação: A implementação desse programa traria benefícios tanto para a cafeteria quanto para os funcionários. Os atendentes e caixas teriam a oportunidade de adquirir habilidades em inglês, o que os tornaria mais confiantes e eficientes no atendimento a clientes internacionais. Isso poderia resultar em uma experiência melhor para os clientes estrangeiros, aumentando a satisfação e fidelidade. Além disso, os funcionários poderiam se beneficiar pessoalmente, pois o aprendizado de uma nova língua é uma habilidade valiosa e pode abrir portas para oportunidades futuras.",
+            "problema": "Os funcionários da cafeteria enfrentam dificuldades na comunicação com clientes estrangeiros ou turistas que não falam a língua local, o que pode resultar em barreiras na interação e na qualidade do atendimento.",
+            "publicos": "Funcionários da cafeteria, especialmente atendentes e caixas que têm contato direto com os clientes.",
+            "resultados": "Melhoria na comunicação com clientes estrangeiros, aumento da satisfação dos clientes, maior eficiência no atendimento, desenvolvimento de habilidades linguísticas dos funcionários, possibilidade de crescimento profissional.",
+            "custos": "Os custos envolvidos no programa de capacitação e aprendizado em inglês incluem honorários do professor ou plataforma de ensino online, material de apoio (livros, apostilas, recursos online), custos com treinamentos práticos, certificados de conclusão e possíveis incentivos ou recompensas para os funcionários.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
+            ]
+        },
+        {
+            "id": 1013,
+            "titulo": "Instalação de Extintores de Incêndio",
+            "descricao": "Esta proposta tem como objetivo garantir a segurança e prevenir incêndios na cafeteria por meio da instalação de extintores de incêndio em locais estratégicos. Os extintores de incêndio são equipamentos essenciais para o combate inicial de pequenos focos de incêndio e podem ser fundamentais para evitar danos maiores ou acidentes graves. A instalação dos extintores deve seguir as regulamentações e normas de segurança contra incêndio.\n\nPontos importantes a considerar:\n\nIdentificação dos Pontos de Instalação: Será realizado um estudo para identificar os pontos mais adequados para a instalação dos extintores de incêndio. Esses pontos devem ser estrategicamente distribuídos pela cafeteria, levando em consideração a área de cobertura de cada extintor e os riscos potenciais de incêndio.\n\nTipos de Extintores: Será selecionado o tipo adequado de extintor para cada ponto de instalação, levando em consideração os possíveis tipos de incêndio que podem ocorrer na cafeteria. É importante considerar extintores adequados para incêndios de classe A (materiais sólidos), classe B (líquidos inflamáveis) e classe C (equipamentos elétricos).\n\nTreinamento dos Funcionários: Além da instalação dos extintores, será realizado um treinamento para os funcionários da cafeteria sobre o uso correto dos extintores em situações de emergência. Eles devem estar familiarizados com os diferentes tipos de extintores, suas classes de incêndio correspondentes e as orientações de uso adequado.\n\nManutenção e Inspeção Regular: Será estabelecido um plano de manutenção e inspeção regular dos extintores de incêndio, conforme exigido pelas normas de segurança. Isso inclui a verificação periódica do estado dos extintores, a recarga quando necessário e a substituição em caso de danos ou expiração da validade.\n\nBenefícios da Instalação de Extintores: A instalação de extintores de incêndio traz inúmeros benefícios para a cafeteria, como aumento da segurança contra incêndios, proteção dos funcionários, clientes e do patrimônio da cafeteria. Além disso, a presença de extintores de incêndio demonstra o comprometimento da empresa com a segurança e pode gerar confiança nos clientes e funcionários.\n\nObservação: É importante consultar as normas e regulamentações locais de segurança contra incêndio para garantir que a instalação dos extintores esteja em conformidade com os requisitos específicos da região.",
+            "problema": "A falta de extintores de incêndio na cafeteria coloca em risco a segurança dos funcionários, clientes e do próprio estabelecimento, caso ocorra um incêndio.",
+            "publicos": "Funcionários e clientes da cafeteria.",
+            "resultados": "Aumento da segurança contra incêndios na cafeteria, prevenção de danos maiores em caso de incêndio, cumprimento das normas de segurança e confiança dos clientes e funcionários.",
+            "custos": "Os custos para a instalação de extintores de incêndio podem variar dependendo do número de pontos de instalação, tipos de extintores necessários e requisitos específicos da região. Os custos envolvem a compra dos extintores, suportes de fixação, placas de identificação, contratação de serviços especializados para instalação e treinamento dos funcionários. Além disso, é necessário considerar os custos de manutenção e inspeção regular dos extintores, incluindo recargas e substituições quando necessário. É recomendado solicitar orçamentos a fornecedores especializados em equipamentos de combate a incêndio para obter uma estimativa precisa dos custos.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
+            ]
+        },
+        {
+            "id": 1014,
+            "titulo": "Profissionalização do Uso do Instagram",
+            "descricao": "Esta proposta tem como objetivo otimizar e profissionalizar o uso da conta do Instagram da cafeteria, a fim de aumentar o engajamento, atrair mais seguidores e fortalecer a presença online da empresa. O Instagram é uma plataforma popular para compartilhar conteúdo visual e interagir com os clientes, e um uso eficaz dessa plataforma pode impulsionar a visibilidade e o reconhecimento da marca.\n\nPontos importantes a considerar:\n\nCriação de uma Estratégia de Conteúdo: Será desenvolvida uma estratégia de conteúdo para o Instagram, alinhada com a identidade da cafeteria e os interesses do público-alvo. Isso inclui a definição de temas, a criação de um calendário de postagens, a seleção de imagens e a elaboração de legendas atrativas.\n\nMelhoria do Design e Layout: Será feita uma análise do design e layout atual da conta do Instagram e serão implementadas melhorias para garantir uma aparência profissional e visualmente atraente. Isso pode envolver a criação de templates para as postagens, o uso consistente de cores e fontes, e a adição de elementos gráficos que reflitam a identidade visual da cafeteria.\n\nUso de Hashtags Relevantes: Serão pesquisadas e utilizadas hashtags relevantes para cada postagem, a fim de aumentar a visibilidade da cafeteria e atrair seguidores interessados. Será feita uma pesquisa para identificar as hashtags mais populares e relacionadas ao setor de cafeterias e aos produtos oferecidos.\n\nInteração com os Seguidores: Será incentivada a interação com os seguidores por meio de respostas a comentários, curtidas em publicações relevantes e compartilhamento de conteúdo gerado pelos clientes. Essa interação cria um senso de comunidade e fidelidade dos seguidores com a cafeteria.\n\nMonitoramento e Análise de Métricas: Serão utilizadas ferramentas de análise para monitorar o desempenho da conta do Instagram, como o alcance das postagens, o engajamento dos seguidores e o crescimento da base de seguidores. Essas métricas ajudarão a avaliar a eficácia das estratégias implementadas e a fazer ajustes quando necessário.\n\nColaborações e Parcerias: Serão exploradas oportunidades de colaborações e parcerias com influenciadores ou outras marcas relevantes. Essas parcerias podem ajudar a ampliar o alcance da cafeteria e atrair novos seguidores e clientes.\n\nBenefícios da Profissionalização do Uso do Instagram: A profissionalização do uso do Instagram traz diversos benefícios para a cafeteria, incluindo maior visibilidade online, aumento do engajamento com os clientes, fortalecimento da marca, atração de novos seguidores e potenciais clientes, e maior diferenciação em relação à concorrência.\n\nObservação: É importante acompanhar as atualizações do algoritmo do Instagram e estar atento às melhores práticas de uso da plataforma para obter resultados efetivos.",
+            "problema": "A conta do Instagram da cafeteria não está sendo utilizada de forma profissional e estratégica, resultando em baixo engajamento, poucos seguidores e falta de visibilidade online.",
+            "solucao": "Profissionalizar o uso do Instagram da cafeteria, implementando uma estratégia de conteúdo, melhorando o design e layout, utilizando hashtags relevantes, interagindo com os seguidores, monitorando e analisando métricas, e explorando oportunidades de colaborações e parcerias.",
+            "custos": "Os custos para a profissionalização do uso do Instagram da cafeteria podem variar dependendo das necessidades específicas, como contratação de um profissional de marketing digital ou agência especializada em redes sociais, criação de templates gráficos, investimento em anúncios pagos, entre outros. É importante fazer uma análise detalhada das necessidades e objetivos da cafeteria para determinar o investimento necessário.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
+            ]
+        },
+        {
+            "id": 1015,
+            "titulo": "Parceria com a Livraria da Esquina",
+            "descricao": "Esta proposta tem como objetivo estabelecer uma parceria entre a cafeteria e a Livraria da Esquina, localizada nas proximidades. Essa parceria visa promover uma sinergia entre os negócios, oferecendo benefícios mútuos para ambas as partes e proporcionando uma experiência única para os clientes.\n\nPontos importantes a considerar:\n\nCompartilhamento de Espaço: Será estabelecido um acordo para permitir o compartilhamento de espaço físico entre a cafeteria e a livraria. Isso pode incluir a criação de uma área de leitura aconchegante dentro da cafeteria, onde os clientes possam desfrutar de um café enquanto folheiam livros da livraria.\n\nCross-Promoção: Serão desenvolvidas estratégias de cross-promotion, como a divulgação de eventos literários da livraria nas redes sociais da cafeteria e a promoção de produtos da cafeteria na livraria. Isso aumentará a visibilidade e o alcance de ambos os negócios.\n\nEventos Conjuntos: Serão organizados eventos conjuntos, como lançamentos de livros com sessões de autógrafos seguidos de um coquetel na cafeteria. Esses eventos proporcionam uma experiência cultural completa para os clientes e atraem um público diversificado.\n\nPrograma de Fidelidade: Será criado um programa de fidelidade conjunto, onde os clientes que fizerem compras tanto na livraria quanto na cafeteria acumularão pontos que podem ser trocados por descontos, brindes ou benefícios exclusivos.\n\nDivulgação Mútua: A cafeteria e a livraria irão se promover mutuamente por meio de materiais de marketing, como cartazes, banners e folhetos distribuídos em ambos os estabelecimentos. Além disso, as equipes de atendimento ao cliente estarão cientes da parceria e poderão fornecer informações sobre a livraria aos clientes da cafeteria e vice-versa.\n\nBenefícios da Parceria: A parceria com a Livraria da Esquina traz diversos benefícios, como o aumento do fluxo de clientes para ambos os estabelecimentos, o fortalecimento da imagem cultural da cafeteria, a ampliação do público-alvo e a criação de uma experiência diferenciada e enriquecedora para os clientes.\n\nObservação: É fundamental estabelecer um contrato de parceria que estipule os termos e condições, incluindo a divisão de responsabilidades, direitos autorais e questões financeiras.",
+            "problema": "A cafeteria não possui uma parceria estabelecida com a Livraria da Esquina, perdendo a oportunidade de promover sinergia entre os negócios e proporcionar uma experiência única aos clientes.",
+            "solucao": "Realizar uma parceria com a Livraria da Esquina, compartilhando espaço físico, desenvolvendo estratégias de cross-promotion, organizando eventos conjuntos, criando um programa de fidelidade conjunto e promovendo a divulgação mútua. Isso trará benefícios como aumento do fluxo de clientes, fortalecimento da imagem cultural, ampliação do público-alvo e criação de uma experiência enriquecedora.",
+            "custos": "Os custos da parceria com a Livraria da Esquina podem variar, dependendo dos termos e condições estabelecidos no contrato. Podem incluir investimentos em materiais de marketing, organização de eventos conjuntos, criação do programa de fidelidade e possíveis ajustes no espaço físico para acomodar a área de leitura. É importante negociar e alinhar as expectativas financeiras com a livraria para estabelecer uma parceria sustentável.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 0,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
+            ]
+        },
+        {
+            "id": 1020,
+            "titulo": "Criação de Salas de Coworking para Alugar",
+            "descricao": "Esta proposta tem como objetivo criar salas de coworking dentro da cafeteria, oferecendo um espaço inspirador e funcional para profissionais autônomos, empreendedores e estudantes que buscam um ambiente de trabalho compartilhado.\n\nPontos importantes a considerar:\n\nEspaço de Coworking: Será designado um espaço dentro da cafeteria para a criação das salas de coworking. Será necessário avaliar o layout atual e fazer os ajustes necessários para acomodar mesas de trabalho, cadeiras confortáveis, iluminação adequada e tomadas elétricas disponíveis para uso dos clientes.\n\nInfraestrutura: Será fornecida uma infraestrutura adequada, como acesso à internet de alta velocidade, impressora, scanner, pontos de carregamento USB e disponibilidade de café e lanches para os usuários das salas de coworking.\n\nModalidades de Aluguel: Serão oferecidas opções flexíveis de aluguel, incluindo por hora, meio período ou dia inteiro. Os usuários poderão reservar as salas de coworking antecipadamente por meio de um sistema de agendamento online, garantindo a disponibilidade e a organização do espaço.\n\nAmbiente Inspirador: Serão criados espaços agradáveis e inspiradores, com decoração moderna, iluminação adequada e áreas de descanso. Isso proporcionará um ambiente propício à criatividade, produtividade e networking entre os usuários.\n\nBenefícios Adicionais: Além do uso das salas de coworking, os clientes terão acesso a benefícios adicionais, como descontos especiais nos produtos da cafeteria, participação em eventos e workshops exclusivos, e possibilidade de networking com outros profissionais presentes no local.\n\nMarketing e Divulgação: Será realizado um plano de marketing para promover as salas de coworking, utilizando as redes sociais, parcerias com empresas locais e a divulgação para grupos de interesse, como empreendedores e estudantes universitários.\n\nObservação: É importante estabelecer uma política clara de uso das salas de coworking, incluindo regras de conduta, privacidade e responsabilidades, a fim de garantir um ambiente harmonioso e de qualidade para todos os usuários.",
+            "problema": "A cafeteria não está utilizando todo o potencial do espaço disponível, não oferecendo serviços voltados para profissionais autônomos e empreendedores que buscam um ambiente de trabalho compartilhado.",
+            "solucao": "Criar salas de coworking dentro da cafeteria, proporcionando um espaço inspirador, infraestrutura adequada, opções flexíveis de aluguel, ambiente agradável e benefícios adicionais para os usuários. Será realizado um plano de marketing para divulgar as salas de coworking e atrair o público-alvo.",
+            "custos": "Os custos para criação das salas de coworking podem incluir ajustes no espaço físico, aquisição de mobiliário e equipamentos, instalação de infraestrutura tecnológica, investimentos em marketing e divulgação, contratação de pessoal para gerenciamento e manutenção do espaço. É importante realizar um planejamento financeiro detalhado e estimar os custos envolvidos.",
+            "urlImg": "",
+            "anexos": [],
+            "desafio": 1,
+            "grupoId": 2223,
+            "status": "Nova ideia",
+            "comentarios": [
+              {
+                "autor": 1001,
+                "mensagem": ""
+              }
+            ],
+            "comentariosPrivados": [
+              {
+                "autor": "",
+                "mensagem": ""
+              }
             ]
         }
     ]

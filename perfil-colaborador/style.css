@@ -131,11 +131,11 @@ nav button {
 .container-perfil {
     grid-area: perfil;
     background-color: #F5F5F5;
-    padding: 1% 8%;
+    padding: 1% 8% 1% 4%;
     box-sizing: border-box;
     border-radius: 12px;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
 }
 
@@ -166,7 +166,28 @@ nav button {
 .img-row-grupos{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
+}
+.grupo-sem-foto{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 800;
+    font-style: oblique;
+}
+.grupo-sem-foto p{
+    opacity: .7;
+}
+.grupo-sem-foto-cor1{
+    background-color: #2766A9;
+}
+.grupo-sem-foto-cor2{
+    background-color: #A5CEE0;
 }
 .container-grupos-ativos img {
     object-fit: cover;
@@ -186,14 +207,15 @@ nav button {
 .image-row-ideias {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
 }
-.img-container{
+.card-ideia{
     background-color: #A5CEE0;
     display: flex;
     flex-direction: column;
     gap: 0px;
     align-items: center;
+    justify-content: center;
     width: 30%;
     height: 130px;
 }
@@ -213,6 +235,18 @@ nav button {
 .container-ideias-recentes h3 {
     text-align: center;
     font-size: 12px;
+}
+.ideia-sem-foto{
+    position: relative;
+}
+.ideia-sem-foto img{
+    display: none;
+}
+.ideia-sem-foto h3{
+    position: absolute;
+    font-size: 20px;
+    font-style: oblique;
+    opacity: 0.7;
 }
 .container-contato {
     grid-area: contato;
