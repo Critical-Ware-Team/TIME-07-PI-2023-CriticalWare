@@ -292,3 +292,18 @@ nav button {
     width: 100%;
     object-fit: cover;
 }
+.desafio-sem-foto{
+    background-color: #A5CEE0;
+    width: 90%;
+    height: 164px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    opacity: 0.7;
+    padding: 1%;
+}

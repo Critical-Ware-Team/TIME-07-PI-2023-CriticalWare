@@ -115,10 +115,18 @@ window.onload = () =>{
                         for(let j=0; j<jsonUsuarios.colaboradores[0].desafios.length; j++){
                             if(jsonDesafios.desafios[i].id === jsonUsuarios.colaboradores[0].desafios[j])
                             {
-                                document.getElementsByClassName("container-desafios-inscritos")[0].innerHTML+=`
-                                <div class="img-cropper-desafios">
-                                    <img src="${jsonDesafios.desafios[i].urlImg}" alt="Capa do desafio ${jsonDesafios.desafios[i].titulo}">
-                                </div>`;
+                                if(jsonDesafios.desafios[i].urlImg === ""){
+                                    document.getElementsByClassName("container-desafios-inscritos")[0].innerHTML+=`
+                                    <div class="desafio-sem-foto">
+                                        <h3>${jsonDesafios.desafios[i].titulo}</h3>
+                                    </div>`;
+                                }
+                                else{
+                                    document.getElementsByClassName("container-desafios-inscritos")[0].innerHTML+=`
+                                    <div class="img-cropper-desafios">
+                                        <img src="${jsonDesafios.desafios[i].urlImg}" alt="Capa do desafio ${jsonDesafios.desafios[i].titulo}">
+                                    </div>`;
+                                }
                             }
                         }
                     }
