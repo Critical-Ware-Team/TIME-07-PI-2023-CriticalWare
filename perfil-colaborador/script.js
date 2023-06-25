@@ -58,7 +58,6 @@ window.onload = () =>{
             fetch("../jsons/grupos.json")
                 .then((res) => res.json())
                 .then((jsonGrupos) => {
-                    document.getElementsByClassName("img-row-grupos")[0].innerHTML = '';
                     for(let i=0; i<jsonGrupos.grupos.length; i++){
                         for(let j=0; j<jsonUsuarios.colaboradores[0].desafios.length; j++){
                             if(jsonUsuarios.colaboradores[0].grupos[j] === jsonGrupos.grupos[i].id){
@@ -81,7 +80,6 @@ window.onload = () =>{
             fetch("../jsons/ideias.json")
                 .then((res) => res.json())
                 .then((jsonIdeias) => {
-                    document.getElementsByClassName("image-row-ideias")[0].innerHTML = "";
                     for(let i=0; i<jsonIdeias.ideias.length; i++){
                         for(let j=0; j<jsonUsuarios.colaboradores[0].ideias.length; j++){
                             if(jsonIdeias.ideias[i].id === jsonUsuarios.colaboradores[0].ideias[j])
@@ -110,7 +108,6 @@ window.onload = () =>{
             fetch("../jsons/desafios.json")
                 .then((res) => res.json())
                 .then((jsonDesafios) => {
-                    document.getElementsByClassName("container-desafios-inscritos")[0].innerHTML='<h2>Desafios Inscritos</h2>';
                     for(let i=0; i<jsonDesafios.desafios.length; i++){
                         for(let j=0; j<jsonUsuarios.colaboradores[0].desafios.length; j++){
                             if(jsonDesafios.desafios[i].id === jsonUsuarios.colaboradores[0].desafios[j])
