@@ -40,7 +40,7 @@ navButton[8].addEventListener('click', () => {
 });
 
 window.onload = () =>{
-    fetch("../jsons/usuarios.json")
+    fetch("../../jsons/usuarios.json")
         .then((res) => res.json())
         .then((jsonUsuarios) => {
             // preenche perfil
@@ -55,7 +55,7 @@ window.onload = () =>{
                 <p>Unidade: ${jsonUsuarios.colaboradores[0].unidade}</p>
             </div>`;
             //renderiza grupos
-            fetch("../jsons/grupos.json")
+            fetch("../../jsons/grupos.json")
                 .then((res) => res.json())
                 .then((jsonGrupos) => {
                     for(let i=0; i<jsonGrupos.grupos.length; i++){
@@ -77,7 +77,7 @@ window.onload = () =>{
                 })
                 .catch((err) => console.err(err));//catch da renderização de grupos
             //renderiza ideias
-            fetch("../jsons/ideias.json")
+            fetch("../../jsons/ideias.json")
                 .then((res) => res.json())
                 .then((jsonIdeias) => {
                     for(let i=0; i<jsonIdeias.ideias.length; i++){
@@ -105,7 +105,7 @@ window.onload = () =>{
             <p>Email: ${jsonUsuarios.colaboradores[0].contato.email}</p>
             <p>Celular: ${jsonUsuarios.colaboradores[0].contato.celular}</p>`;
             //renderiza desafios
-            fetch("../jsons/desafios.json")
+            fetch("../../jsons/desafios.json")
                 .then((res) => res.json())
                 .then((jsonDesafios) => {
                     for(let i=0; i<jsonDesafios.desafios.length; i++){
