@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, header, footer, #body-row{
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+p, h1, h2, h3{
+    margin: 0px;
+}
+main{
+    grid-area: main;
+    padding: 14% 8% 4% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #1B2023;
+    background-color: #D5E6ED;
+    display: grid;
+    grid-template-columns: 16vw 1fr;
+    grid-template-rows: 85px 1fr 85px;
+    grid-template-areas: "header header"
+                         "nav main"
+                         "footer footer";
+}
+.botoesheader{  
+    display: flex;
+    padding: 10px 8px;
+    font-size: 12px;
+    gap: 20px;
+    color:rgba(27, 32, 35, 1);
+    text-align:center;
+    font-weight: 500;
+    font-size: 12px;
+}
+.btn{
+    padding: 15px 15px;
+}
+.btn:hover{
+    background:#A5CEE0;
+    border-radius: 48px;
+    transition-duration: 300ms;
+}
+
+header, footer{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+}
+header{
+    grid-area: header;
+    justify-content: space-between;
+}
+
+#logo-empresa, #logo-KER{
+    max-width: 10%;
+}
+main{
+    grid-area: main;
+    padding: 1% 4.8%;
+}
+nav{
+    grid-area: nav;
+    background-color: #2766A9;
+    padding-top: 8%;
+    position: relative;
+}
+#buttons{
+    position: fixed;
+    left: 0;
+    width: fit-content;
+}
+.membross{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14.4px;
+    line-height: 22px;
+}
+.ideiass{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14.4px;
+    line-height: 22px;
+}
+nav button{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A5CEE0;
+
+    box-sizing: border-box;
+    width: 16vw;
+    gap: 8%;
+    padding: 4% 8% 4% 24%;
+
+}
+#selection-bar{
+    width: 1%;
+    background-color: #F5F5F5;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+#selected-nav{
+    color: white;
+}
+#selected-nav path{
+    stroke: white;
+}
+#selected-nav #selection-bar{
+    opacity: 1;
+}
+.img-row{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0px;
+}
+.colabs{
+    display: flex;
+}
+.img-row img, .img-row svg{
+    width: 10%;
+}
+.img-row img{
+    clip-path: circle();
+}
+.img-row img:nth-child(-n + 9){
+    margin-left: -4%;
+}
+.img-row img:nth-child(1){
+    margin-left: 2%;
+}
+
+.grupo-card{
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    padding: 2%;
+    width: 20%;
+    height: min-content;
+}
+.grupo-card p{
+    margin: 0px;
+}
+.grupo-card p:nth-child(1){
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 8px;
+    text-transform: uppercase;
+}
+.grupo-card p:nth-child(2){
+    font-weight: 600;
+    font-size: 16px;
+}
+.grupo-card p:nth-child(4){
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 3%;
+}
+.grupo-card div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    left: 6%;
+}
+.grupo-card img{
+    width: 18.75%;
+    clip-path: circle();
+}
+.grupo-card div img:nth-child(-n + 6){
+    margin-left: -6%;
+}
+.grupo-card, .criar-grupo{
+    transition-property: background-color;
+    transition-duration: 150ms;
+}
+.grupo-card:hover, .criar-grupo:hover{
+    transition-property: background-color;
+    transition-duration: 300ms;
+    background-color: #ddd;
+}

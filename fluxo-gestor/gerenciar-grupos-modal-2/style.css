@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, header, footer, #body-row{
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+p, h1, h2, h3{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #1B2023;
+    background-color: #D5E6ED;
+    display: grid;
+    grid-template-columns: 16vw 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: "header header"
+                         "nav main"
+                         "footer footer";
+}
+header, footer{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+}
+header{
+    grid-area: header;
+    justify-content: space-between;
+}
+footer{
+    grid-area: footer;
+    justify-content: flex-end;
+}
+#logo-empresa, #logo-KER{
+    max-width: 10%;
+}
+main{
+    grid-area: main;
+    padding: 1% 4.8%;
+}
+.nav-page{
+    grid-area: nav;
+    background-color: #2766A9;
+    padding-top: 8%;
+    position: relative;
+}
+#buttons{
+    position: fixed;
+    left: 0;
+    width: fit-content;
+}
+.nav-page button{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A5CEE0;
+
+    box-sizing: border-box;
+    width: 16vw;
+    gap: 8%;
+    padding: 4% 8% 4% 24%;
+
+}
+.nav-page #selection-bar{
+    width: 1%;
+    background-color: #F5F5F5;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+.nav-page #selected-nav{
+    color: white;
+}
+.nav-page #selected-nav path{
+    stroke: white;
+}
+.nav-page #selected-nav #selection-bar{
+    opacity: 1;
+}
+
+
+
+dialog{
+    display: grid;
+    grid-template-columns: 1.75fr 5.75fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "left-bar central-bar";
+    width: 75%;
+    height: 80vh;
+
+    padding: 0;
+    border: none;
+    border-radius:  12px;
+    overflow: hidden;
+}
+#left-bar{
+    grid-area: left-bar;
+    background-color: #2766A9;
+    /* background-color: darksalmon; */
+    box-sizing: border-box;
+    padding: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #F5F5F5;
+}
+#central-bar{
+    grid-area: central-bar;
+    background-color: #F5F5F5;
+    padding: 16px;
+    
+    overflow: hidden scroll;
+}
+
+
+.nav-modal{
+    padding-top: 8%;
+    width: 100%;
+}
+.nav-modal button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A5CEE0;
+    width: 100%;
+    gap: 10px;
+    padding: 4% 1% 4% 8%;
+}
+dialog #selection-bar{
+    width: 1%;
+    background-color: #F5F5F5;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+dialog #selected-nav{
+    color: white;
+}
+dialog #selected-nav path{
+    stroke: white;
+}
+dialog #selected-nav #selection-bar{
+    opacity: 1;
+}
+
+#left-bar h2{
+    margin: 8px 16px;
+}
+#central-bar h1{
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 90px;
+}
+#central-bar h4{
+    text-align:justify;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 90px;
+}
+#box{
+    width: 600px;
+    height: 273px;
+    margin-left: 90px;
+    background: #A5CEE0;
+    border: none;   
+    border-radius: 12px;
+}
+.excluir{ 
+    background-color:transparent; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left:585px;
+    text-decoration-line: underline;
+    border: none;
+    color: #E70000;
+}
