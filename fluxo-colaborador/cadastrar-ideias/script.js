@@ -11,7 +11,7 @@ const navButton = [
 ];
 navButton[0].addEventListener('click', () => {
     // window.location.href = "../feed-inicial/;"
-    console.log("esta tela não foi desenvolvida");
+    window.alert("página não desenvolvida");
 });
 navButton[1].addEventListener('click', () => {
     window.location.href = "../grupos-colaborador/";
@@ -27,7 +27,7 @@ navButton[4].addEventListener('click', () => {
 });
 navButton[5].addEventListener('click', () => {
     // window.location.href = "../feedbacks/;"
-    console.log("esta tela não foi desenvolvida");
+    window.alert("página não desenvolvida");
 });
 navButton[6].addEventListener('click', () => {
     window.location.href = "../perfil-colaborador/";
